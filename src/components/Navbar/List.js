@@ -3,20 +3,24 @@ import {StaggeredMotion, spring} from 'react-motion'
 
 const MENU_ITEMS = [
   {
-    name: 'about',
+    name: '¿Qué es el simposio?',
     link: '#about'
   },
   {
-    name: 'skills',
-    link: '#skills'
+    name: 'Cronograma',
+    link: '#crono'
   },
   {
-    name: 'portfolio',
-    link: '#portfolio'
+    name: 'Disertantes',
+    link: '#speakers'
   },
   {
-    name: 'contact',
-    link: '#contact'
+    name: 'Inscripción',
+    link: '#admission'
+  },
+  {
+    name: 'Ubicación',
+    link: '#place'
   }
 ]
 
@@ -25,6 +29,7 @@ const DAMPING = 18
 
 function TopList() {
   return (
+    
     <ul className="nav__list top-nav__list">
       {
         MENU_ITEMS.map(({link, name}, i) => (

@@ -14,13 +14,23 @@
   top: 0
   left: 0
 
+.top-nav::after
+  width: 80%
+  content: ""
+  display: inline-block
+  height: 0.5rem
+  border-top: 1px $light-grey solid
+
 .top-nav--open
   height: 100vh
   align-items: center
   justify-content: flex-start
   flex-direction: column
-  background-color: #000
+  background-color: #fff
   transition: background-color .3s
+
+.top-nav--open::after
+  display: none
 
 .top-nav__on-top
   width: 100%
@@ -61,7 +71,6 @@
 
 // LINK ________________________________________________________________________
 .top-nav__link
-  text-transform: uppercase
   font-size: 1.618rem
   color: $dark-grey
   text-decoration: none
@@ -74,7 +83,8 @@
 
 // LOGO ________________________________________________________________________
 .logo
-  width: 3.272rem
+  width: 8.567rem
+  opacity: 0
 
 .logo-container
   display: flex
@@ -106,6 +116,7 @@
   // LOGO
   .logo
     width: 5.295rem
+    display: none
 
   .logo-container
     width: 25%
