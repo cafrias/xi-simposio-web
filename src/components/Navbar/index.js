@@ -1,4 +1,6 @@
-import React, {Component} from 'react'
+// @flow
+
+import React from 'react'
 import {Motion, spring, presets} from 'react-motion'
 
 // IMPORT ASSETS _______________________________________________________________
@@ -13,65 +15,58 @@ import FadeIn from '../../animations/FadeIn'
 // IMPORT COMPONENTS ___________________________________________________________
 import List from './List'
 
-class Navbar extends Component {
-  constructor(props) {
-    super(props)
+// TYPE DEFINITION _____________________________________________________________
+type NavbarProps = {
+  menuOpen: boolean,
+  toggleMenu: () => any
+}
 
-    this.state = {
-      navOpen: false
-    }
-  }
+// NAVBAR COMPONENT ____________________________________________________________
+function Navbar(props: NavbarProps) {
+  const {
+    menuOpen,
+    toggleMenu
+  } = props
 
-  toggleMenuHandler() {
-    this.setState({
-      navOpen: !this.state.navOpen
-    })
-  }
-
- addMotionToComponent(component, key) {
-   return (
-     <Motion key={key} defaultStyle={{x: 0}}
-       style={{x: spring(1, presets.gentle)}}
-       >
-       {interpolatingStyle => component({style: interpolatingStyle})}
-     </Motion>
-   )
- }
-
-  render() {
-    const {navOpen} = this.state
-    const {
-      addMotionToComponent
-    } = this
-    return (
-      <FadeIn
-        onRest={f => f}
-      >
-        <header role="banner"
-          className={`top-nav ${navOpen ? 'top-nav--open' : ''}`}
-          >
-          <div className="top-nav__on-top">
-            <div className="logo-container">
-              <img src={logo} alt="logo" className="logo" />
-            </div>
-            <div className="hamburger" onClick={this.toggleMenuHandler.bind(this)}>
-              {
-                navOpen
-                ? addMotionToComponent(Cross, 1)
-                : addMotionToComponent(Hamburger, 2)
-              }
-            </div>
-            <List topNav={true} />
+  return (
+    <FadeIn
+      onRest={f => f}
+    >
+      <header role="banner"
+        className={`top-nav ${menuOpen ? 'top-nav--open' : ''}`}
+        >
+        <div className="top-nav__on-top">
+          <div className="logo-container">
+            <img src={logo} alt="logo" className="logo" />
           </div>
-          {
-            navOpen
-            ? <List topNav={false} />
-            : null
-          }
-        </header>
-      </FadeIn>
-    )
-  }
+          <div className="hamburger" onClick={toggleMenu}>
+            {
+              menuOpen
+              ? addMotionToComponent(Cross, 1)
+              : addMotionToComponent(Hamburger, 2)
+            }
+          </div>
+          <List topNav={true} />
+        </div>
+        {
+          menuOpen
+          ? <List topNav={false} />
+          : null
+        }
+      </header>
+    </FadeIn>
+  )
+}
+
+// HELPER FUNCTIONS ____________________________________________________________
+function addMotionToComponent(component, key) {
+  return (
+    <Motion key={key} defaultStyle={{x: 0}}
+      style={{x: spring(1, presets.gentle)}}
+      >
+      {interpolatingStyle => component({style: interpolatingStyle})}
+    </Motion>
+  )
 }
 
 export default Navbar
