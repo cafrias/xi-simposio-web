@@ -1,0 +1,331 @@
+exports[`Home view should match snapshot 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <section
+    className="home-container">
+    <div
+        className="hero-logo-container">
+        <img
+            alt="Simposio Ushuaia logo con lema"
+            className="hero-logo"
+            src="logo.svg" />
+    </div>
+    <div
+        className="time-container">
+        <img
+            alt="17/05 - 19/05"
+            className="time"
+            src="time.svg" />
+    </div>
+    <div
+        className="hero-pics">
+        <div
+            className="social">
+            <div
+                className="social-container">
+                <a
+                    className="social__icon-link"
+                    href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328"
+                    target="_blank">
+                    <FacebookIcon />
+                </a>
+                <a
+                    className="social__icon-link social__mail"
+                    href="mailto:ponencias.simposio@gmail.com">
+                    <GmailIcon />
+                </a>
+            </div>
+        </div>
+    </div>
+    <section
+        className="organized-section">
+        <h2
+            className="organized-by">
+            <span
+                className="organized-by__text">
+                Organizado Por
+            </span>
+        </h2>
+        <div
+            className="organized">
+            <img
+                alt="Idei Logo"
+                className="organized__logo"
+                src="idei@2x.png" />
+            <img
+                alt="UNTDF Logo"
+                className="organized__logo"
+                src="untdf@2x.png" />
+        </div>
+    </section>
+    <section
+        className="sponsors">
+        <header
+            className="sponsors__header">
+            <h2
+                className="sponsors__title">
+                Auspiciantes
+            </h2>
+        </header>
+    </section>
+</section>,
+  "nodes": Array [
+    <section
+      className="home-container">
+      <div
+            className="hero-logo-container">
+            <img
+                  alt="Simposio Ushuaia logo con lema"
+                  className="hero-logo"
+                  src="logo.svg" />
+      </div>
+      <div
+            className="time-container">
+            <img
+                  alt="17/05 - 19/05"
+                  className="time"
+                  src="time.svg" />
+      </div>
+      <div
+            className="hero-pics">
+            <div
+                  className="social">
+                  <div
+                        className="social-container">
+                        <a
+                              className="social__icon-link"
+                              href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328"
+                              target="_blank">
+                              <FacebookIcon />
+                        </a>
+                        <a
+                              className="social__icon-link social__mail"
+                              href="mailto:ponencias.simposio@gmail.com">
+                              <GmailIcon />
+                        </a>
+                  </div>
+            </div>
+      </div>
+      <section
+            className="organized-section">
+            <h2
+                  className="organized-by">
+                  <span
+                        className="organized-by__text">
+                        Organizado Por
+                  </span>
+            </h2>
+            <div
+                  className="organized">
+                  <img
+                        alt="Idei Logo"
+                        className="organized__logo"
+                        src="idei@2x.png" />
+                  <img
+                        alt="UNTDF Logo"
+                        className="organized__logo"
+                        src="untdf@2x.png" />
+            </div>
+      </section>
+      <section
+            className="sponsors">
+            <header
+                  className="sponsors__header">
+                  <h2
+                        className="sponsors__title">
+                        Auspiciantes
+                  </h2>
+            </header>
+      </section>
+</section>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Home />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <section
+          className="home-container">
+          <div
+                    className="hero-logo-container">
+                    <img
+                              alt="Simposio Ushuaia logo con lema"
+                              className="hero-logo"
+                              src="logo.svg" />
+          </div>
+          <div
+                    className="time-container">
+                    <img
+                              alt="17/05 - 19/05"
+                              className="time"
+                              src="time.svg" />
+          </div>
+          <div
+                    className="hero-pics">
+                    <div
+                              className="social">
+                              <div
+                                        className="social-container">
+                                        <a
+                                                  className="social__icon-link"
+                                                  href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328"
+                                                  target="_blank">
+                                                  <FacebookIcon />
+                                        </a>
+                                        <a
+                                                  className="social__icon-link social__mail"
+                                                  href="mailto:ponencias.simposio@gmail.com">
+                                                  <GmailIcon />
+                                        </a>
+                              </div>
+                    </div>
+          </div>
+          <section
+                    className="organized-section">
+                    <h2
+                              className="organized-by">
+                              <span
+                                        className="organized-by__text">
+                                        Organizado Por
+                              </span>
+                    </h2>
+                    <div
+                              className="organized">
+                              <img
+                                        alt="Idei Logo"
+                                        className="organized__logo"
+                                        src="idei@2x.png" />
+                              <img
+                                        alt="UNTDF Logo"
+                                        className="organized__logo"
+                                        src="untdf@2x.png" />
+                    </div>
+          </section>
+          <section
+                    className="sponsors">
+                    <header
+                              className="sponsors__header">
+                              <h2
+                                        className="sponsors__title">
+                                        Auspiciantes
+                              </h2>
+                    </header>
+          </section>
+</section>,
+        "_debugID": 4,
+        "_renderedOutput": <section
+          className="home-container">
+          <div
+                    className="hero-logo-container">
+                    <img
+                              alt="Simposio Ushuaia logo con lema"
+                              className="hero-logo"
+                              src="logo.svg" />
+          </div>
+          <div
+                    className="time-container">
+                    <img
+                              alt="17/05 - 19/05"
+                              className="time"
+                              src="time.svg" />
+          </div>
+          <div
+                    className="hero-pics">
+                    <div
+                              className="social">
+                              <div
+                                        className="social-container">
+                                        <a
+                                                  className="social__icon-link"
+                                                  href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328"
+                                                  target="_blank">
+                                                  <FacebookIcon />
+                                        </a>
+                                        <a
+                                                  className="social__icon-link social__mail"
+                                                  href="mailto:ponencias.simposio@gmail.com">
+                                                  <GmailIcon />
+                                        </a>
+                              </div>
+                    </div>
+          </div>
+          <section
+                    className="organized-section">
+                    <h2
+                              className="organized-by">
+                              <span
+                                        className="organized-by__text">
+                                        Organizado Por
+                              </span>
+                    </h2>
+                    <div
+                              className="organized">
+                              <img
+                                        alt="Idei Logo"
+                                        className="organized__logo"
+                                        src="idei@2x.png" />
+                              <img
+                                        alt="UNTDF Logo"
+                                        className="organized__logo"
+                                        src="untdf@2x.png" />
+                    </div>
+          </section>
+          <section
+                    className="sponsors">
+                    <header
+                              className="sponsors__header">
+                              <h2
+                                        className="sponsors__title">
+                                        Auspiciantes
+                              </h2>
+                    </header>
+          </section>
+</section>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Home />,
+}
+`;

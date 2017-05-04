@@ -12,8 +12,9 @@ import time from './assets/time.svg'
 import idei_x2 from './assets/idei@2x.png'
 import untdf_x2 from './assets/untdf@2x.png'
 
-import fbLogo from './assets/fb.svg'
-import mailLogo from './assets/mail.svg'
+// ICONS _______________________________________________________________________
+import FacebookIcon from './FacebookIcon'
+import GmailIcon from './GmailIcon'
 
 function Home() {
   return (
@@ -27,8 +28,12 @@ function Home() {
       <div className="hero-pics">
         <div className="social">
           <div className="social-container">
-            <img src={fbLogo} alt="Facebook Icon" className="social__icon"/>
-            <img src={mailLogo} alt="Mail Icon" className="social__icon social__mail"/>
+            <a className="social__icon-link" target="_blank" href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328">
+              <FacebookIcon />
+            </a>
+            <a className="social__icon-link social__mail" href="mailto:ponencias.simposio@gmail.com">
+              <GmailIcon />
+            </a>
           </div>
         </div>
       </div>
