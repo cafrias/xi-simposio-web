@@ -3,19 +3,19 @@
 import React from 'react'
 
 // ASSETS ______________________________________________________________________
-import './subtle_dots_@2X.png'
+import './assets/subtle_dots_@2X.png'
 import './Home.sass'
 
-import logo from './logo.svg'
-import time from './time.svg'
+import logo from './assets/logo.svg'
+import time from './assets/time.svg'
 
-import idei from './idei.png'
-import idei_x2 from './idei@2x.png'
-import untdf from './untdf.png'
-import untdf_x2 from './untdf@2x.png'
+import idei from './assets/idei.png'
+import idei_x2 from './assets/idei@2x.png'
+import untdf from './assets/untdf.png'
+import untdf_x2 from './assets/untdf@2x.png'
 
-import fbLogo from './fb.svg'
-import mailLogo from './mail.svg'
+import fbLogo from './assets/fb.svg'
+import mailLogo from './assets/mail.svg'
 
 function Home() {
   return (
