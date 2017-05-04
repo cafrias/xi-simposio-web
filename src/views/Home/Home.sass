@@ -60,6 +60,7 @@
   transform: scale(1.1, 1.1) skew(15deg)
   height: 100%
   width: 50%
+  max-width: 22.428rem
   +shadow-1
 
 .social-container
@@ -83,13 +84,15 @@
   justify-content: center
   height: 6.854rem
   background-color: green
+  background: $light-gradient
+  +shadow-0
+  +anti-aliased
+
+.organized-by__text
   font-size: 2.023rem
   color: #fff
   font-weight: 900
   text-transform: uppercase
-  background: $light-gradient
-  +shadow-0
-  +anti-aliased
 
 // ORGANIZED ___________________________________________________________________
 .organized-section
@@ -97,12 +100,16 @@
 
 .organized
   height: 6.854rem
+  padding: 1rem 0
   display: flex
-  justify-content: space-around
   align-items: center
+  justify-content: space-around
   width: 100%
   background-image: url('./assets/subtle_dots_@2X.png')
   background-repeat: repeat
+
+.organized__logo
+  max-height: 100%
 
 // SPONSORS ____________________________________________________________________
 .sponsors
@@ -140,6 +147,7 @@
 +for-desktop-up
   .hero-logo-container
     padding: 0
+    margin-bottom: 4.236rem
 
   .hero-logo-container::before
     display: block
@@ -157,3 +165,41 @@
 
   .hero-logo
     margin: 0 4.236rem
+
+  // ORGANIZED SECTION
+  .organized-section
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  // ORGANIZED BY
+  .organized-by
+    margin: -6rem
+    top: 5rem
+    width: 32rem
+    height: 12rem
+    transform: skew(-15deg)
+
+  .organized-by__text
+    transform: skew(15deg)
+    font-size: 2.618rem
+
+  // ORGANIZED
+  .organized
+    height: 10rem
+    justify-content: space-between
+    padding-left: 10%
+    padding-right: 6%
+
+  .time
+    height: 5.295rem
+    margin: -5px
+
+  .hero-pics
+    background-image: url('./assets/back-desktop.jpg')
+    background-position: top center
+
++for-big-desktop-up
+  .organized
+    padding-left: 14%
+    padding-right: 9%

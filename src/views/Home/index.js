@@ -9,9 +9,7 @@ import './Home.sass'
 import logo from './assets/logo.svg'
 import time from './assets/time.svg'
 
-import idei from './assets/idei.png'
 import idei_x2 from './assets/idei@2x.png'
-import untdf from './assets/untdf.png'
 import untdf_x2 from './assets/untdf@2x.png'
 
 import fbLogo from './assets/fb.svg'
@@ -36,11 +34,11 @@ function Home() {
       </div>
       <section className="organized-section">
         <h2 className="organized-by">
-          Organizado Por
+          <span className="organized-by__text">Organizado Por</span>
         </h2>
         <div className="organized">
-          <img srcSet={`${idei_x2} 2x`} src={idei} alt="Idei Logo" className="organized__logo"/>
-          <img srcSet={`${untdf_x2} 2x`} src={untdf} alt="UNTDF Logo" className="organized__logo"/>
+            <img src={idei_x2} alt="Idei Logo" className="organized__logo"/>
+            <img src={untdf_x2} alt="UNTDF Logo" className="organized__logo"/>
         </div>
       </section>
       <section className="sponsors">
