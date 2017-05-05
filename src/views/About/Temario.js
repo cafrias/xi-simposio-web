@@ -15,7 +15,7 @@ type TemarioProps = {
 
 function Temario({areaName, topics}: TemarioProps) {
   return(
-    <section className={`temario__${areaName.toLowerCase()}`}>
+    <section className="temario__area">
       <h3>Área {areaName}</h3>
       <ol className="temario-list text-container">
         {

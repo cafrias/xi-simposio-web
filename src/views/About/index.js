@@ -55,11 +55,13 @@ function About() {
       <div className="about__content">
         <article className="temario">
           <h2>Temario</h2>
-          {
-            areas.map((area, i) => (
-              <Temario key={i} {...area}/>
-            ))
-          }
+          <div className="temario-grid">
+            {
+              areas.map((area, i) => (
+                <Temario key={i} {...area}/>
+              ))
+            }
+          </div>
         </article>
       </div>
     </Section>
