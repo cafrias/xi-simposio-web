@@ -9,6 +9,7 @@ import Header from './components/Header'
 
 // VIEWS _______________________________________________________________________
 import Home from './views/Home'
+import Speakers from './views/Speakers'
 
 class App extends Component {
   state: {
@@ -40,7 +41,8 @@ class App extends Component {
       <div className="app">
         <Navbar menuOpen={menuOpen} toggleMenu={this.toggleMenu} />
         <main className={`content-container ${menuOpen ? 'no-scroll' : ''}`}>
-          <Home />
+          <Home/>
+          <Speakers/>
         </main>
       </div>
     )

@@ -46,7 +46,7 @@ function Home() {
             <img src={untdf_x2} alt="UNTDF Logo" className="organized__logo"/>
         </div>
       </section>
-      <section className="sponsors">
+      <section className="background_orange sponsors">
         <header className="sponsors__header">
           <h2 className="section__title">Auspiciantes</h2>
         </header>

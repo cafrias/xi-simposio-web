@@ -64,7 +64,7 @@ ShallowWrapper {
         </div>
     </section>
     <section
-        className="sponsors">
+        className="background_orange sponsors">
         <header
             className="sponsors__header">
             <h2
@@ -133,7 +133,7 @@ ShallowWrapper {
             </div>
       </section>
       <section
-            className="sponsors">
+            className="background_orange sponsors">
             <header
                   className="sponsors__header">
                   <h2
@@ -236,7 +236,7 @@ ShallowWrapper {
                     </div>
           </section>
           <section
-                    className="sponsors">
+                    className="background_orange sponsors">
                     <header
                               className="sponsors__header">
                               <h2
@@ -305,7 +305,7 @@ ShallowWrapper {
                     </div>
           </section>
           <section
-                    className="sponsors">
+                    className="background_orange sponsors">
                     <header
                               className="sponsors__header">
                               <h2
