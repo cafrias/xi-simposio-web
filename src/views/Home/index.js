@@ -48,7 +48,7 @@ function Home() {
       </section>
       <section className="sponsors">
         <header className="sponsors__header">
-          <h2 className="sponsors__title">Auspiciantes</h2>
+          <h2 className="section__title">Auspiciantes</h2>
         </header>
       </section>
     </section>

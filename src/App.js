@@ -5,6 +5,7 @@ import './App.sass'
 
 // COMPONENTS __________________________________________________________________
 import Navbar from './components/Navbar'
+import Header from './components/Header'
 
 // VIEWS _______________________________________________________________________
 import Home from './views/Home'
