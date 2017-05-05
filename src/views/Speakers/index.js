@@ -26,7 +26,7 @@ class Speakers extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', (e) => {
-      const should = this.refs._grid.getBoundingClientRect().top < 250
+      const should = this.refs._grid.getBoundingClientRect().top < (window.innerHeight/2)
 
       if(should && !this.state.shouldAppear) {
         console.log('triggered')
