@@ -9,7 +9,7 @@ import Section from '../../components/Section'
 
 function About() {
   return (
-    <Section name="¿Qué es el Simposio?" className="background_white about">
+    <Section name="¿Qué es el Simposio?" className="background_white about-container">
       <div className="about__portrait">
         <div className="about__pic-container">
           <div className="about__pic">
