@@ -20,16 +20,22 @@ function About() {
         <div className="introduction">
           <h2>Introducción</h2>
           <p>
-            Lorem ipsum dolor sit amet, no usu consul malorum periculis. Ea eos case apeirian, qui ut commodo alienum salutandi. Aeterno ponderum at vix. Sanctus accumsan similique ne has, in ignota numquam eam. Unum disputando cu has. Verear timeam et pri. Nec omittam consequuntur te.
+            El Simposio de Contabilidad y Auditoría del Extremos Sur, desde sus inicios en 2007, se propuso aprovechar el inspirador contexto que propone la ciudad de Ushuaia, con sus grandes atractivos naturales, para generar un espacio de debate y reflexión sobre temas de actualidad en las disciplinas que conforman el eje central del evento. De esta manera, los Profesores de la UBA, Ricardo Pahlen Acuña y Héctor Chyrikins, propusieron su creación a un grupo de docentes locales, los que decidieron otorgar todo su apoyo y brindar el máximo esfuerzo para la concreción de aquella primera edición y posterior consolidación a lo largo de los 10 años posteriores, con una frecuencia anual de encuentros durante la segunda quincena del mes de mayo.
           </p>
           <p>
-            Ei est causae aeterno gloriatur, cu delenit laoreet delectus per. Congue impedit ea nam. Ad graeci diceret albucius sed. Ius ei commune singulis, id graece platonem reprehendunt duo. No usu viris complectitur, cetero nonumes mel ut, tollit suscipiantur per no.
+            Desde aquel momento y hasta la presente edición, se han compartido brillantes conferencias, a cargo de prestigiosos profesionales y docentes del ámbito nacional e internacional, y se han presentado y expuesto un importante número de trabajos fruto de las investigaciones e indagaciones de los autores.
           </p>
           <p>
-            Tation lobortis facilisis est ex. Eius oratio at quo. Ea consul argumentum vim. In nam accumsan appareat. Pro exerci sensibus inimicus ne.
+            El Simposio que se origina en la Facultad de Ciencias Económicas de la Universidad Nacional de la Patagonia San Juan Bosco, y que adoptara a partir de 2013 el Instituto de Desarrollo Económico e Innovación de la Universidad Nacional de Tierra del Fuego, Antártida e Islas del Atlántico Sur, se encuentra en el cronograma de eventos académicos de la Contabilidad y Auditoría a nivel nacional.
           </p>
           <p>
-            Quo no ubique alterum democritum, erant tritani ad eum, eius cotidieque eos in. Te mea rebum inermis, volumus definitionem ne mei. Option conclusionemque ei ius, graeci diceret reprimique ut nam, vim no ferri sapientem. Mutat accusam mel id, nostrud eleifend elaboraret per in, ne ius alterum probatus deterruisset.
+            Incrementar el alcance de los trabajos presentados en el Simposio, a través de la publicación de los mismos en formato digital, es uno de los objetivos estratégicos que se esperan concretar, junto con el incremento de la participación de estudiantes y docentes locales.
+          </p>
+          <p>
+            Los premios que se otorgan a los mejores trabajos, constituyen un importante incentivo para generar una creciente calidad en la producción académico científica de los participantes.
+          </p>
+          <p>
+            Es por todo esto que se invita a estudiantes, docentes e investigadores vinculados a la Contabilidad y la Auditoría y al público en general, a participar de este importante evento.
           </p>
         </div>
       </div>
