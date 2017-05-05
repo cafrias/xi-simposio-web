@@ -13,18 +13,18 @@
   height: 100%
   overflow: hidden
   transform: skew(15deg) scale(1.2)
+  background-color: $light-brown
   +shadow-1
 
 .about__pic
   position: relative
   left: -25%
   width: 150%
-  height: 100%
   transform: skew(-15deg)
-  background-image: url('./assets/about-pic.jpg')
-  background-position: top center
-  background-repeat: no-repeat
-  background-size: cover
+  // background-image: url('./assets/about-pic.jpg')
+  // background-position: top center
+  // background-repeat: no-repeat
+  // background-size: cover
 
 .about__portrait
   margin-top: 2.618rem
@@ -34,7 +34,13 @@
   justify-content: center
   height: 8.567rem
 
+.about__pic-container--back
+  display: none
+
 // INTRODUCTION ________________________________________________________________
+.intro-container
+  width: 100%
+
 .introduction
   margin-top: 2.618rem
   padding: 0 1.618rem
@@ -48,3 +54,31 @@
 // TEMARIO SECTION _____________________________________________________________
 .temario
   margin-top: 4.236rem
+
+// DESKTOP BREAKPOINTS _________________________________________________________
++for-desktop-up
+  .intro-container
+    display: flex
+    align-items: stretch
+
+  .about__pic
+    width: 170%
+
+  .about__pic-container
+    height: inherit
+    transform: skew(15deg) scale(0.8)
+
+  .about__pic-container--back
+    display: block
+    z-index: 1
+    transform: skew(-15deg)
+
+  .about__pic--back
+    transform: skew(15deg)
+
+  .about__portrait
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    background-color: #fff
+    height: auto
