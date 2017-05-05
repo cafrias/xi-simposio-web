@@ -1,9 +1,11 @@
+// @flow
+
 import React from 'react'
 
 import './Speakers.sass'
 
 // COMPONENTS __________________________________________________________________
-import Header from '../../components/Header'
+import Section from '../../components/Section'
 import Speaker from './Speaker'
 
 // DATA ________________________________________________________________________
@@ -11,8 +13,7 @@ import speakers from './data'
 
 function Speakers() {
   return (
-    <section className="background_orange section speakers">
-      <Header title="Disertantes"/>
+    <Section name="Disertantes" className="background_orange speakers">
       <div className="speakers__grid">
         {
           speakers.map((speaker, i) => (
@@ -20,7 +21,7 @@ function Speakers() {
           ))
         }
       </div>
-    </section>
+    </Section>
   )
 }
 

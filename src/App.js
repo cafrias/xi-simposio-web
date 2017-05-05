@@ -5,11 +5,11 @@ import './App.sass'
 
 // COMPONENTS __________________________________________________________________
 import Navbar from './components/Navbar'
-import Header from './components/Header'
 
 // VIEWS _______________________________________________________________________
 import Home from './views/Home'
 import Speakers from './views/Speakers'
+import About from './views/About'
 
 class App extends Component {
   state: {
@@ -42,6 +42,7 @@ class App extends Component {
         <Navbar menuOpen={menuOpen} toggleMenu={this.toggleMenu} />
         <main className={`content-container ${menuOpen ? 'no-scroll' : ''}`}>
           <Home/>
+          <About/>
           <Speakers/>
         </main>
       </div>
