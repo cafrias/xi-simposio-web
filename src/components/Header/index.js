@@ -3,9 +3,12 @@ import React from 'react'
 import './Header.sass'
 
 function Header({title}) {
+  const shouldShrink = title.length > 12
   return (
     <header className="section__header">
-      <h2 className="section__title">{title}</h2>
+      <h2 className={`section__title ${shouldShrink ? 'shrunk' : ''}`}>
+        {title}
+      </h2>
     </header>
   )
 }
