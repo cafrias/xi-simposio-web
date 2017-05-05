@@ -13,7 +13,7 @@ import speakers from './data'
 
 function Speakers() {
   return (
-    <Section name="Disertantes" className="background_orange speakers">
+    <Section id="speakers" name="Disertantes" className="background_orange speakers">
       <div className="speakers__grid">
         {
           speakers.map((speaker, i) => (

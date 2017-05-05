@@ -13,7 +13,7 @@ import areas from './areas'
 
 function About() {
   return (
-    <Section name="¿Qué es el Simposio?" className="background_white about-container">
+    <Section id="about" name="¿Qué es el Simposio?" className="background_white about-container">
       <div className="about__portrait">
         <div className="about__pic-container">
           <div className="about__pic">

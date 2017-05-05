@@ -2,11 +2,11 @@ import React from 'react'
 
 import './Header.sass'
 
-function Header({title}) {
+function Header({id, title}) {
   const shouldShrink = title.length > 12
   return (
     <header className="section__header">
-      <h2 className={`section__title ${shouldShrink ? 'shrunk' : ''}`}>
+      <h2 id={id} className={`section__title ${shouldShrink ? 'shrunk' : ''}`}>
         {title}
       </h2>
     </header>
