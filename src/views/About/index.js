@@ -52,6 +52,7 @@ function About() {
           </div>
         </article>
       </div>
+      <hr/>
       <div className="about__content">
         <article className="temario">
           <h2>Temario</h2>
