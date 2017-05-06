@@ -7,6 +7,7 @@ import './Schedule.sass'
 // COMPONENTS __________________________________________________________________
 import Section from '../../components/Section'
 import MobileTable from './MobileTable'
+import DesktopTable from './DesktopTable'
 
 // DATA ________________________________________________________________________
 import days from './data'
@@ -20,6 +21,9 @@ function Schedule() {
               <MobileTable key={i} {...day}/>
             ))
           }
+        </div>
+        <div className="desktop-content">
+          <DesktopTable days={days}/>
         </div>
       </Section>
     )

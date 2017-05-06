@@ -2,8 +2,6 @@
 
 import React from 'react'
 
-import './MobileTable.sass'
-
 // DATA ________________________________________________________________________
 import {timeEntries} from './data'
 
@@ -16,7 +14,7 @@ type MobileTableProps = {
 
 function MobileTable({weekday, date, activities}: MobileTableProps) {
   return (
-    <table className="mobile-table">
+    <table className="table mobile-table">
       <thead>
         <tr>
           <th style={{opacity: 0}}>Hora</th>
