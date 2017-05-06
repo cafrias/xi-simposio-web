@@ -7,12 +7,12 @@ const MENU_ITEMS = [
     link: '#about'
   },
   {
-    name: 'Cronograma',
-    link: '#crono'
-  },
-  {
     name: 'Disertantes',
     link: '#speakers'
+  },
+  {
+    name: 'Cronograma',
+    link: '#crono'
   },
   {
     name: 'Inscripción',
@@ -29,7 +29,7 @@ const DAMPING = 18
 
 function TopList() {
   return (
-    
+
     <ul className="nav__list top-nav__list">
       {
         MENU_ITEMS.map(({link, name}, i) => (

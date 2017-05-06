@@ -38,9 +38,9 @@ class Speakers extends Component {
   }
 
   render() {
-    const {
-      shouldAppear
-    } = this.state
+    // const {
+    //   shouldAppear
+    // } = this.state
     return (
       <Section id="speakers" name="Disertantes" className="background_orange speakers">
         <div ref="_grid"
