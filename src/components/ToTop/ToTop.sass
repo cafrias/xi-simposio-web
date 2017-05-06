@@ -8,6 +8,17 @@
   right: 1rem
   bottom: 1rem
   z-index: 12
+  transition: opacity 0.8s
+
+.to-top-btn:hover
+  opacity: 1
+  transition: 0.8s
+  cursor: pointer
 
 .to-top-btn--hidden
   display: none
+
++for-desktop-up
+  .to-top-btn
+    right: 1.618rem
+    bottom: 1.618rem
