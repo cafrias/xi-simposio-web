@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import Home from './views/Home'
 import Speakers from './views/Speakers'
 import About from './views/About'
+import Schedule from './views/Schedule'
 
 class App extends Component {
   state: {
@@ -44,6 +45,7 @@ class App extends Component {
           <Home/>
           <About/>
           <Speakers/>
+          <Schedule/>
         </main>
       </div>
     )
