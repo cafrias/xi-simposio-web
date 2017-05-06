@@ -12,7 +12,7 @@ const MENU_ITEMS = [
   },
   {
     name: 'Cronograma',
-    link: '#crono'
+    link: '#schedule'
   },
   {
     name: 'Inscripción',

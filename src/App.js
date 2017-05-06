@@ -5,6 +5,7 @@ import './App.sass'
 
 // COMPONENTS __________________________________________________________________
 import Navbar from './components/Navbar'
+import ToTop from './components/ToTop'
 
 // VIEWS _______________________________________________________________________
 import Home from './views/Home'
@@ -47,6 +48,7 @@ class App extends Component {
           <Speakers/>
           <Schedule/>
         </main>
+        <ToTop/>
       </div>
     )
   }
