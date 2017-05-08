@@ -64,6 +64,19 @@ function About() {
             }
           </div>
         </article>
+        <article className="prizes">
+          <h2>Constitución de Premios</h2>
+          <div className="text-container">
+            <p>Deseando reconocer el esfuerzo de los ponentes, y resaltar la calidad académica de las presentaciones realizadas, hemos constituido los siguientes premios:</p>
+            <ul>
+              <li>Premio Simposio Area Contabilidad</li>
+              <li>Premio Simposio Area Auditoria</li>
+              <li>Premio Profesor Hector Chyrikins (auditoria en el área gubernamental)</li>
+              <li>Premio Profesor Ricardo Pahlen Acuña (contabilidad ambiental y social)</li>
+              <li>Premio Señor Rector UNTDF (mejor trabajo de estudiantes)</li>
+            </ul>
+          </div>
+        </article>
       </div>
     </Section>
   )
