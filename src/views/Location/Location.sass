@@ -1,0 +1,40 @@
+@import '../../_sass/_constants.sass'
+@import '../../_sass/_breakpoints.sass'
+
+.tile
+  margin-top: 2.618rem
+  background-color: #fff
+  display: flex
+  justify-content: space-between
+  width: 80%
+  +shadow-2
+
+.tile__left
+  padding: 1.618rem
+  width: 56%
+
+.tile__title
+  margin: 0
+
+.tile__text
+  text-align: center
+  margin: 2.618rem 0
+
+.tile__social
+  border-top: 2px solid $secondary
+  padding-top: 1.618rem
+
+// TILE RIGHT __________________________________________________________________
+.tile__right
+  width: 42%
+  display: flex
+  align-items: center
+  justify-content: flex-end
+
+.tile__map
+  height: inherit
+  max-width: 80%
+  position: relative
+  z-index: 2
+  transform: scale(1.1, 1.1)
+  +shadow-2
