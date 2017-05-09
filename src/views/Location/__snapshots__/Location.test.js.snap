@@ -1,0 +1,391 @@
+exports[`Location view should match snapshot 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Section
+    className="background_orange location"
+    id="location"
+    name="Ubicación">
+    <article
+        className="tile">
+        <div
+            className="tile__left">
+            <h2
+                className="tile__title">
+                DIRECCIÓN
+            </h2>
+            <p
+                className="text-container tile__text">
+                Edificio tal de la Universidad de cual
+                <br />
+                Calle tanto 12345, Ushuaia, Tierra del Fuego, Argentina.
+            </p>
+            <p
+                className="tile__text">
+                <a
+                    href="maps.google.com">
+                    Ver en Google Maps
+                </a>
+            </p>
+            <div
+                className="tile__social">
+                <SocialLinks />
+            </div>
+        </div>
+        <div
+            className="tile__right">
+            <img
+                alt="Mapa de la ubicacion"
+                className="tile__map"
+                src="maps-2.jpg" />
+        </div>
+    </article>
+    <article
+        className="tile tile--hotel">
+        <h2
+            className="tile__title">
+            ALOJAMIENTO
+        </h2>
+        <p
+            className="text-container hotel__text">
+            El Hotel Ushuaia ofrece una tarifa diferencial a los asistentes al Simposio, la cual podrá utilizarse informando al momento de realizar la reserva la participación en el evento:
+        </p>
+        <ul
+            className="text-container">
+            <li>
+                Habitación single por noche $900
+            </li>
+            <li>
+                Habitación doble por noche $1.150
+            </li>
+            <li>
+                Habitación triple por noche $1.300
+            </li>
+        </ul>
+        <ul
+            className="tile__social hotel__links">
+            <li>
+                <a
+                    href="http://www.hotelushuaia.com.ar">
+                    www.hotelushuaia.com.ar
+                </a>
+            </li>
+            <li>
+                <a
+                    href="tel:+54 2901 430671">
+                    +54 2901 430671
+                </a>
+            </li>
+            <li>
+                <a
+                    href="mailto:reservas@hotelushuaia.com.ar">
+                    reservas@hotelushuaia.com.ar
+                </a>
+            </li>
+        </ul>
+    </article>
+</Section>,
+  "nodes": Array [
+    <Section
+      className="background_orange location"
+      id="location"
+      name="Ubicación">
+      <article
+            className="tile">
+            <div
+                  className="tile__left">
+                  <h2
+                        className="tile__title">
+                        DIRECCIÓN
+                  </h2>
+                  <p
+                        className="text-container tile__text">
+                        Edificio tal de la Universidad de cual
+                        <br />
+                        Calle tanto 12345, Ushuaia, Tierra del Fuego, Argentina.
+                  </p>
+                  <p
+                        className="tile__text">
+                        <a
+                              href="maps.google.com">
+                              Ver en Google Maps
+                        </a>
+                  </p>
+                  <div
+                        className="tile__social">
+                        <SocialLinks />
+                  </div>
+            </div>
+            <div
+                  className="tile__right">
+                  <img
+                        alt="Mapa de la ubicacion"
+                        className="tile__map"
+                        src="maps-2.jpg" />
+            </div>
+      </article>
+      <article
+            className="tile tile--hotel">
+            <h2
+                  className="tile__title">
+                  ALOJAMIENTO
+            </h2>
+            <p
+                  className="text-container hotel__text">
+                  El Hotel Ushuaia ofrece una tarifa diferencial a los asistentes al Simposio, la cual podrá utilizarse informando al momento de realizar la reserva la participación en el evento:
+            </p>
+            <ul
+                  className="text-container">
+                  <li>
+                        Habitación single por noche $900
+                  </li>
+                  <li>
+                        Habitación doble por noche $1.150
+                  </li>
+                  <li>
+                        Habitación triple por noche $1.300
+                  </li>
+            </ul>
+            <ul
+                  className="tile__social hotel__links">
+                  <li>
+                        <a
+                              href="http://www.hotelushuaia.com.ar">
+                              www.hotelushuaia.com.ar
+                        </a>
+                  </li>
+                  <li>
+                        <a
+                              href="tel:+54 2901 430671">
+                              +54 2901 430671
+                        </a>
+                  </li>
+                  <li>
+                        <a
+                              href="mailto:reservas@hotelushuaia.com.ar">
+                              reservas@hotelushuaia.com.ar
+                        </a>
+                  </li>
+            </ul>
+      </article>
+</Section>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Location />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <Section
+          className="background_orange location"
+          id="location"
+          name="Ubicación">
+          <article
+                    className="tile">
+                    <div
+                              className="tile__left">
+                              <h2
+                                        className="tile__title">
+                                        DIRECCIÓN
+                              </h2>
+                              <p
+                                        className="text-container tile__text">
+                                        Edificio tal de la Universidad de cual
+                                        <br />
+                                        Calle tanto 12345, Ushuaia, Tierra del Fuego, Argentina.
+                              </p>
+                              <p
+                                        className="tile__text">
+                                        <a
+                                                  href="maps.google.com">
+                                                  Ver en Google Maps
+                                        </a>
+                              </p>
+                              <div
+                                        className="tile__social">
+                                        <SocialLinks />
+                              </div>
+                    </div>
+                    <div
+                              className="tile__right">
+                              <img
+                                        alt="Mapa de la ubicacion"
+                                        className="tile__map"
+                                        src="maps-2.jpg" />
+                    </div>
+          </article>
+          <article
+                    className="tile tile--hotel">
+                    <h2
+                              className="tile__title">
+                              ALOJAMIENTO
+                    </h2>
+                    <p
+                              className="text-container hotel__text">
+                              El Hotel Ushuaia ofrece una tarifa diferencial a los asistentes al Simposio, la cual podrá utilizarse informando al momento de realizar la reserva la participación en el evento:
+                    </p>
+                    <ul
+                              className="text-container">
+                              <li>
+                                        Habitación single por noche $900
+                              </li>
+                              <li>
+                                        Habitación doble por noche $1.150
+                              </li>
+                              <li>
+                                        Habitación triple por noche $1.300
+                              </li>
+                    </ul>
+                    <ul
+                              className="tile__social hotel__links">
+                              <li>
+                                        <a
+                                                  href="http://www.hotelushuaia.com.ar">
+                                                  www.hotelushuaia.com.ar
+                                        </a>
+                              </li>
+                              <li>
+                                        <a
+                                                  href="tel:+54 2901 430671">
+                                                  +54 2901 430671
+                                        </a>
+                              </li>
+                              <li>
+                                        <a
+                                                  href="mailto:reservas@hotelushuaia.com.ar">
+                                                  reservas@hotelushuaia.com.ar
+                                        </a>
+                              </li>
+                    </ul>
+          </article>
+</Section>,
+        "_debugID": 4,
+        "_renderedOutput": <Section
+          className="background_orange location"
+          id="location"
+          name="Ubicación">
+          <article
+                    className="tile">
+                    <div
+                              className="tile__left">
+                              <h2
+                                        className="tile__title">
+                                        DIRECCIÓN
+                              </h2>
+                              <p
+                                        className="text-container tile__text">
+                                        Edificio tal de la Universidad de cual
+                                        <br />
+                                        Calle tanto 12345, Ushuaia, Tierra del Fuego, Argentina.
+                              </p>
+                              <p
+                                        className="tile__text">
+                                        <a
+                                                  href="maps.google.com">
+                                                  Ver en Google Maps
+                                        </a>
+                              </p>
+                              <div
+                                        className="tile__social">
+                                        <SocialLinks />
+                              </div>
+                    </div>
+                    <div
+                              className="tile__right">
+                              <img
+                                        alt="Mapa de la ubicacion"
+                                        className="tile__map"
+                                        src="maps-2.jpg" />
+                    </div>
+          </article>
+          <article
+                    className="tile tile--hotel">
+                    <h2
+                              className="tile__title">
+                              ALOJAMIENTO
+                    </h2>
+                    <p
+                              className="text-container hotel__text">
+                              El Hotel Ushuaia ofrece una tarifa diferencial a los asistentes al Simposio, la cual podrá utilizarse informando al momento de realizar la reserva la participación en el evento:
+                    </p>
+                    <ul
+                              className="text-container">
+                              <li>
+                                        Habitación single por noche $900
+                              </li>
+                              <li>
+                                        Habitación doble por noche $1.150
+                              </li>
+                              <li>
+                                        Habitación triple por noche $1.300
+                              </li>
+                    </ul>
+                    <ul
+                              className="tile__social hotel__links">
+                              <li>
+                                        <a
+                                                  href="http://www.hotelushuaia.com.ar">
+                                                  www.hotelushuaia.com.ar
+                                        </a>
+                              </li>
+                              <li>
+                                        <a
+                                                  href="tel:+54 2901 430671">
+                                                  +54 2901 430671
+                                        </a>
+                              </li>
+                              <li>
+                                        <a
+                                                  href="mailto:reservas@hotelushuaia.com.ar">
+                                                  reservas@hotelushuaia.com.ar
+                                        </a>
+                              </li>
+                    </ul>
+          </article>
+</Section>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Location />,
+}
+`;
