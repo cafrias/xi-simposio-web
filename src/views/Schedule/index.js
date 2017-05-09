@@ -14,7 +14,7 @@ import days from './data'
 
 function Schedule() {
     return(
-      <Section id="schedule" name="Cronograma" className="schedule">
+      <Section id="schedule" name="Cronograma" className="background_white schedule">
         <div className="mobile-content text-container">
           {
             days.map((day, i) => (
