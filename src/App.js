@@ -13,6 +13,7 @@ import Speakers from './views/Speakers'
 import About from './views/About'
 import Schedule from './views/Schedule'
 import Registration from './views/Registration'
+import Location from './views/Location'
 
 class App extends Component {
   state: {
@@ -49,6 +50,7 @@ class App extends Component {
           <Speakers/>
           <Schedule/>
           <Registration/>
+          <Location/>
         </main>
         <ToTop/>
       </div>
