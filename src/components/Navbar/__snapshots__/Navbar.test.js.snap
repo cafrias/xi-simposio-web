@@ -9,7 +9,9 @@ ShallowWrapper {
   "node": <FadeIn
     onRest={[Function]}>
     <header
-        className="top-nav "
+        className="top-nav
+                
+                "
         role="banner">
         <div
             className="top-nav__on-top">
@@ -51,7 +53,9 @@ ShallowWrapper {
     <FadeIn
       onRest={[Function]}>
       <header
-            className="top-nav "
+            className="top-nav
+                  
+                  "
             role="banner">
             <div
                   className="top-nav__on-top">
@@ -94,18 +98,20 @@ ShallowWrapper {
   "renderer": ReactShallowRenderer {
     "_instance": ShallowComponentWrapper {
       "_calledComponentWillUnmount": false,
-      "_compositeType": 2,
+      "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <Navbar />,
       "_debugID": 3,
       "_hostContainerInfo": null,
       "_hostParent": null,
-      "_instance": StatelessComponent {
+      "_instance": Navbar {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {},
         "refs": Object {},
-        "state": null,
+        "state": Object {
+          "shrink": false,
+        },
         "updater": Object {
           "enqueueCallback": [Function],
           "enqueueCallbackInternal": [Function],
@@ -127,7 +133,9 @@ ShallowWrapper {
         "_currentElement": <FadeIn
           onRest={[Function]}>
           <header
-                    className="top-nav "
+                    className="top-nav
+                      
+                      "
                     role="banner">
                     <div
                               className="top-nav__on-top">
@@ -169,7 +177,9 @@ ShallowWrapper {
         "_renderedOutput": <FadeIn
           onRest={[Function]}>
           <header
-                    className="top-nav "
+                    className="top-nav
+                      
+                      "
                     role="banner">
                     <div
                               className="top-nav__on-top">
