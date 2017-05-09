@@ -1,0 +1,415 @@
+exports[`Schedule view should match snapshot 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Section
+    className="background_white schedule"
+    id="schedule"
+    name="Cronograma">
+    <div
+        className="mobile-content text-container">
+        <MobileTable
+            activities={
+                Object {
+                    "15.00": "Acreditaciones",
+                    "17.00": "Acto de Apertura",
+                    "17.30": "Trabajo en comisiones",
+                    "19.00": "Coffee Break",
+                    "19.30": "Conferencia",
+                    "21.00": "Cóctel de bienvenida",
+                  }
+            }
+            date="17/05/2017"
+            weekday="Miércoles" />
+        <MobileTable
+            activities={
+                Object {
+                    "17.00": "Trabajo en comisiones",
+                    "17.30": "Trabajo en comisiones",
+                    "19.00": "Coffee Break",
+                    "19.30": "Conferencia",
+                    "21.00": "Cena libre",
+                  }
+            }
+            date="18/05/2017"
+            weekday="Jueves" />
+        <MobileTable
+            activities={
+                Object {
+                    "17.00": "Trabajo en comisiones",
+                    "17.30": "Trabajo en comisiones",
+                    "19.00": "Coffee Break",
+                    "19.30": "Conferencia",
+                    "21.00": "Acto de clausura",
+                    "22.30": "Cena de camaradería",
+                  }
+            }
+            date="19/05/2017"
+            weekday="Viernes" />
+    </div>
+    <div
+        className="desktop-content">
+        <DesktopTable
+            days={
+                Array [
+                    Object {
+                      "activities": Object {
+                        "15.00": "Acreditaciones",
+                        "17.00": "Acto de Apertura",
+                        "17.30": "Trabajo en comisiones",
+                        "19.00": "Coffee Break",
+                        "19.30": "Conferencia",
+                        "21.00": "Cóctel de bienvenida",
+                      },
+                      "date": "17/05/2017",
+                      "weekday": "Miércoles",
+                    },
+                    Object {
+                      "activities": Object {
+                        "17.00": "Trabajo en comisiones",
+                        "17.30": "Trabajo en comisiones",
+                        "19.00": "Coffee Break",
+                        "19.30": "Conferencia",
+                        "21.00": "Cena libre",
+                      },
+                      "date": "18/05/2017",
+                      "weekday": "Jueves",
+                    },
+                    Object {
+                      "activities": Object {
+                        "17.00": "Trabajo en comisiones",
+                        "17.30": "Trabajo en comisiones",
+                        "19.00": "Coffee Break",
+                        "19.30": "Conferencia",
+                        "21.00": "Acto de clausura",
+                        "22.30": "Cena de camaradería",
+                      },
+                      "date": "19/05/2017",
+                      "weekday": "Viernes",
+                    },
+                  ]
+            } />
+    </div>
+</Section>,
+  "nodes": Array [
+    <Section
+      className="background_white schedule"
+      id="schedule"
+      name="Cronograma">
+      <div
+            className="mobile-content text-container">
+            <MobileTable
+                  activities={
+                        Object {
+                              "15.00": "Acreditaciones",
+                              "17.00": "Acto de Apertura",
+                              "17.30": "Trabajo en comisiones",
+                              "19.00": "Coffee Break",
+                              "19.30": "Conferencia",
+                              "21.00": "Cóctel de bienvenida",
+                            }
+                  }
+                  date="17/05/2017"
+                  weekday="Miércoles" />
+            <MobileTable
+                  activities={
+                        Object {
+                              "17.00": "Trabajo en comisiones",
+                              "17.30": "Trabajo en comisiones",
+                              "19.00": "Coffee Break",
+                              "19.30": "Conferencia",
+                              "21.00": "Cena libre",
+                            }
+                  }
+                  date="18/05/2017"
+                  weekday="Jueves" />
+            <MobileTable
+                  activities={
+                        Object {
+                              "17.00": "Trabajo en comisiones",
+                              "17.30": "Trabajo en comisiones",
+                              "19.00": "Coffee Break",
+                              "19.30": "Conferencia",
+                              "21.00": "Acto de clausura",
+                              "22.30": "Cena de camaradería",
+                            }
+                  }
+                  date="19/05/2017"
+                  weekday="Viernes" />
+      </div>
+      <div
+            className="desktop-content">
+            <DesktopTable
+                  days={
+                        Array [
+                              Object {
+                                "activities": Object {
+                                  "15.00": "Acreditaciones",
+                                  "17.00": "Acto de Apertura",
+                                  "17.30": "Trabajo en comisiones",
+                                  "19.00": "Coffee Break",
+                                  "19.30": "Conferencia",
+                                  "21.00": "Cóctel de bienvenida",
+                                },
+                                "date": "17/05/2017",
+                                "weekday": "Miércoles",
+                              },
+                              Object {
+                                "activities": Object {
+                                  "17.00": "Trabajo en comisiones",
+                                  "17.30": "Trabajo en comisiones",
+                                  "19.00": "Coffee Break",
+                                  "19.30": "Conferencia",
+                                  "21.00": "Cena libre",
+                                },
+                                "date": "18/05/2017",
+                                "weekday": "Jueves",
+                              },
+                              Object {
+                                "activities": Object {
+                                  "17.00": "Trabajo en comisiones",
+                                  "17.30": "Trabajo en comisiones",
+                                  "19.00": "Coffee Break",
+                                  "19.30": "Conferencia",
+                                  "21.00": "Acto de clausura",
+                                  "22.30": "Cena de camaradería",
+                                },
+                                "date": "19/05/2017",
+                                "weekday": "Viernes",
+                              },
+                            ]
+                  } />
+      </div>
+</Section>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Schedule />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <Section
+          className="background_white schedule"
+          id="schedule"
+          name="Cronograma">
+          <div
+                    className="mobile-content text-container">
+                    <MobileTable
+                              activities={
+                                        Object {
+                                                  "15.00": "Acreditaciones",
+                                                  "17.00": "Acto de Apertura",
+                                                  "17.30": "Trabajo en comisiones",
+                                                  "19.00": "Coffee Break",
+                                                  "19.30": "Conferencia",
+                                                  "21.00": "Cóctel de bienvenida",
+                                                }
+                              }
+                              date="17/05/2017"
+                              weekday="Miércoles" />
+                    <MobileTable
+                              activities={
+                                        Object {
+                                                  "17.00": "Trabajo en comisiones",
+                                                  "17.30": "Trabajo en comisiones",
+                                                  "19.00": "Coffee Break",
+                                                  "19.30": "Conferencia",
+                                                  "21.00": "Cena libre",
+                                                }
+                              }
+                              date="18/05/2017"
+                              weekday="Jueves" />
+                    <MobileTable
+                              activities={
+                                        Object {
+                                                  "17.00": "Trabajo en comisiones",
+                                                  "17.30": "Trabajo en comisiones",
+                                                  "19.00": "Coffee Break",
+                                                  "19.30": "Conferencia",
+                                                  "21.00": "Acto de clausura",
+                                                  "22.30": "Cena de camaradería",
+                                                }
+                              }
+                              date="19/05/2017"
+                              weekday="Viernes" />
+          </div>
+          <div
+                    className="desktop-content">
+                    <DesktopTable
+                              days={
+                                        Array [
+                                                  Object {
+                                                    "activities": Object {
+                                                      "15.00": "Acreditaciones",
+                                                      "17.00": "Acto de Apertura",
+                                                      "17.30": "Trabajo en comisiones",
+                                                      "19.00": "Coffee Break",
+                                                      "19.30": "Conferencia",
+                                                      "21.00": "Cóctel de bienvenida",
+                                                    },
+                                                    "date": "17/05/2017",
+                                                    "weekday": "Miércoles",
+                                                  },
+                                                  Object {
+                                                    "activities": Object {
+                                                      "17.00": "Trabajo en comisiones",
+                                                      "17.30": "Trabajo en comisiones",
+                                                      "19.00": "Coffee Break",
+                                                      "19.30": "Conferencia",
+                                                      "21.00": "Cena libre",
+                                                    },
+                                                    "date": "18/05/2017",
+                                                    "weekday": "Jueves",
+                                                  },
+                                                  Object {
+                                                    "activities": Object {
+                                                      "17.00": "Trabajo en comisiones",
+                                                      "17.30": "Trabajo en comisiones",
+                                                      "19.00": "Coffee Break",
+                                                      "19.30": "Conferencia",
+                                                      "21.00": "Acto de clausura",
+                                                      "22.30": "Cena de camaradería",
+                                                    },
+                                                    "date": "19/05/2017",
+                                                    "weekday": "Viernes",
+                                                  },
+                                                ]
+                              } />
+          </div>
+</Section>,
+        "_debugID": 4,
+        "_renderedOutput": <Section
+          className="background_white schedule"
+          id="schedule"
+          name="Cronograma">
+          <div
+                    className="mobile-content text-container">
+                    <MobileTable
+                              activities={
+                                        Object {
+                                                  "15.00": "Acreditaciones",
+                                                  "17.00": "Acto de Apertura",
+                                                  "17.30": "Trabajo en comisiones",
+                                                  "19.00": "Coffee Break",
+                                                  "19.30": "Conferencia",
+                                                  "21.00": "Cóctel de bienvenida",
+                                                }
+                              }
+                              date="17/05/2017"
+                              weekday="Miércoles" />
+                    <MobileTable
+                              activities={
+                                        Object {
+                                                  "17.00": "Trabajo en comisiones",
+                                                  "17.30": "Trabajo en comisiones",
+                                                  "19.00": "Coffee Break",
+                                                  "19.30": "Conferencia",
+                                                  "21.00": "Cena libre",
+                                                }
+                              }
+                              date="18/05/2017"
+                              weekday="Jueves" />
+                    <MobileTable
+                              activities={
+                                        Object {
+                                                  "17.00": "Trabajo en comisiones",
+                                                  "17.30": "Trabajo en comisiones",
+                                                  "19.00": "Coffee Break",
+                                                  "19.30": "Conferencia",
+                                                  "21.00": "Acto de clausura",
+                                                  "22.30": "Cena de camaradería",
+                                                }
+                              }
+                              date="19/05/2017"
+                              weekday="Viernes" />
+          </div>
+          <div
+                    className="desktop-content">
+                    <DesktopTable
+                              days={
+                                        Array [
+                                                  Object {
+                                                    "activities": Object {
+                                                      "15.00": "Acreditaciones",
+                                                      "17.00": "Acto de Apertura",
+                                                      "17.30": "Trabajo en comisiones",
+                                                      "19.00": "Coffee Break",
+                                                      "19.30": "Conferencia",
+                                                      "21.00": "Cóctel de bienvenida",
+                                                    },
+                                                    "date": "17/05/2017",
+                                                    "weekday": "Miércoles",
+                                                  },
+                                                  Object {
+                                                    "activities": Object {
+                                                      "17.00": "Trabajo en comisiones",
+                                                      "17.30": "Trabajo en comisiones",
+                                                      "19.00": "Coffee Break",
+                                                      "19.30": "Conferencia",
+                                                      "21.00": "Cena libre",
+                                                    },
+                                                    "date": "18/05/2017",
+                                                    "weekday": "Jueves",
+                                                  },
+                                                  Object {
+                                                    "activities": Object {
+                                                      "17.00": "Trabajo en comisiones",
+                                                      "17.30": "Trabajo en comisiones",
+                                                      "19.00": "Coffee Break",
+                                                      "19.30": "Conferencia",
+                                                      "21.00": "Acto de clausura",
+                                                      "22.30": "Cena de camaradería",
+                                                    },
+                                                    "date": "19/05/2017",
+                                                    "weekday": "Viernes",
+                                                  },
+                                                ]
+                              } />
+          </div>
+</Section>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Schedule />,
+}
+`;
