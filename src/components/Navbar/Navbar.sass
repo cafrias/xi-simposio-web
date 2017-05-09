@@ -92,6 +92,13 @@
   align-items: center
   width: 75%
 
+// SHRUNK
+.top-nav--shrunk
+  +shadow-2
+
+.top-nav--shrunk::after
+  display: none
+
 // DESKTOP _____________________________________________________________________
 +for-desktop-up
   .top-nav
@@ -126,6 +133,9 @@
   // HAMBURGER
   .hamburger
     display: none
+
+  .top-nav--shrunk
+    height: 5.295rem
 
 // DESKTOP BIG BREAKPOINT ______________________________________________________
 +for-big-desktop-up

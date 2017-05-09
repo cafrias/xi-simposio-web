@@ -27,8 +27,7 @@ import speakers from './data'
 function Speakers() {
   return (
     <Section id="speakers" name="Disertantes" className="background_orange speakers">
-      <div ref="_grid"
-        className={`speakers__grid speakers__grid--mount`}>
+      <div className={`speakers__grid speakers__grid--mount`}>
         {
           speakers.map((speaker, i) => (
             <Speaker key={i} {...speaker}/>
