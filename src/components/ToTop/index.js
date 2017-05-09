@@ -31,7 +31,7 @@ class ToTop extends Component {
       <div onClick={() => window.scrollTo(0, 0)}
         className={`to-top-btn ${show ? '' : 'to-top-btn--hidden'}`}>
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-          <polyline fill="none" stroke="#FFFFFF" stroke-width="2" points="10 17.02 25.491 34 41 17" transform="rotate(-180 25.5 25.5)" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline fill="none" stroke="#FFFFFF" strokeWidth="2" points="10 17.02 25.491 34 41 17" transform="rotate(-180 25.5 25.5)" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </div>
     )
