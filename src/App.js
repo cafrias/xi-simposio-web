@@ -53,6 +53,9 @@ class App extends Component {
           <Location/>
         </main>
         <ToTop/>
+        <footer className="main-footer">
+          <small>Design and development – Frias Design®</small>
+        </footer>
       </div>
     )
   }

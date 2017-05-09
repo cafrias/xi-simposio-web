@@ -1,4 +1,5 @@
 @import './_sass/_breakpoints.sass'
+@import './_sass/_constants.sass'
 
 .content-container
   margin-top: 5.295rem
@@ -7,6 +8,13 @@
 .no-scroll
   height: 10px
   overflow: hidden
+
+.main-footer
+  background-color: #4a4a4a
+  color: #fff
+  text-align: right
+  padding: .5rem
+  +anti-aliased
 
 +for-desktop-up
   .content-container
