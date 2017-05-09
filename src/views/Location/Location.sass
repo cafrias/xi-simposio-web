@@ -5,13 +5,17 @@
   margin-top: 2.618rem
   background-color: #fff
   display: flex
+  flex-wrap: wrap
   justify-content: space-between
-  width: 80%
+  width: 95%
   +shadow-2
 
 .tile__left
   padding: 1.618rem
-  width: 56%
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: space-between
 
 .tile__title
   margin: 0
@@ -26,15 +30,30 @@
 
 // TILE RIGHT __________________________________________________________________
 .tile__right
-  width: 42%
+  width: 100%
   display: flex
   align-items: center
   justify-content: flex-end
 
 .tile__map
   height: inherit
-  max-width: 80%
+  max-width: 100%
   position: relative
   z-index: 2
-  transform: scale(1.1, 1.1)
   +shadow-2
+
++for-tablet-landscape-up
+  .tile
+    flex-wrap: nowrap
+    width: 80%
+
+  .tile__left
+    width: 62%
+    order: 0
+
+  .tile__right
+    width: 35%
+    order: 1
+
+  .tile__map
+    transform: scale(1.1, 1.1)
