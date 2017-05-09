@@ -12,9 +12,8 @@ import time from './assets/time.svg'
 import idei_x2 from './assets/idei@2x.png'
 import untdf_x2 from './assets/untdf@2x.png'
 
-// ICONS _______________________________________________________________________
-import FacebookIcon from './FacebookIcon'
-import GmailIcon from './GmailIcon'
+// COMPONENTS __________________________________________________________________
+import SocialLinks from '../../components/SocialLinks'
 
 function Home() {
   return (
@@ -27,14 +26,7 @@ function Home() {
       </div>
       <div className="hero-pics">
         <div className="social">
-          <div className="social-container">
-            <a className="social__icon-link" target="_blank" href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328">
-              <FacebookIcon />
-            </a>
-            <a className="social__icon-link social__mail" href="mailto:ponencias.simposio@gmail.com">
-              <GmailIcon />
-            </a>
-          </div>
+          <SocialLinks/>
         </div>
       </div>
       <section className="organized-section">

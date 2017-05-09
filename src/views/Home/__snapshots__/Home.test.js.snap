@@ -26,20 +26,7 @@ ShallowWrapper {
         className="hero-pics">
         <div
             className="social">
-            <div
-                className="social-container">
-                <a
-                    className="social__icon-link"
-                    href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328"
-                    target="_blank">
-                    <FacebookIcon />
-                </a>
-                <a
-                    className="social__icon-link social__mail"
-                    href="mailto:ponencias.simposio@gmail.com">
-                    <GmailIcon />
-                </a>
-            </div>
+            <SocialLinks />
         </div>
     </div>
     <section
@@ -95,20 +82,7 @@ ShallowWrapper {
             className="hero-pics">
             <div
                   className="social">
-                  <div
-                        className="social-container">
-                        <a
-                              className="social__icon-link"
-                              href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328"
-                              target="_blank">
-                              <FacebookIcon />
-                        </a>
-                        <a
-                              className="social__icon-link social__mail"
-                              href="mailto:ponencias.simposio@gmail.com">
-                              <GmailIcon />
-                        </a>
-                  </div>
+                  <SocialLinks />
             </div>
       </div>
       <section
@@ -198,20 +172,7 @@ ShallowWrapper {
                     className="hero-pics">
                     <div
                               className="social">
-                              <div
-                                        className="social-container">
-                                        <a
-                                                  className="social__icon-link"
-                                                  href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328"
-                                                  target="_blank">
-                                                  <FacebookIcon />
-                                        </a>
-                                        <a
-                                                  className="social__icon-link social__mail"
-                                                  href="mailto:ponencias.simposio@gmail.com">
-                                                  <GmailIcon />
-                                        </a>
-                              </div>
+                              <SocialLinks />
                     </div>
           </div>
           <section
@@ -267,20 +228,7 @@ ShallowWrapper {
                     className="hero-pics">
                     <div
                               className="social">
-                              <div
-                                        className="social-container">
-                                        <a
-                                                  className="social__icon-link"
-                                                  href="https://es-la.facebook.com/people/Simposio-Ushuaia/100008262517328"
-                                                  target="_blank">
-                                                  <FacebookIcon />
-                                        </a>
-                                        <a
-                                                  className="social__icon-link social__mail"
-                                                  href="mailto:ponencias.simposio@gmail.com">
-                                                  <GmailIcon />
-                                        </a>
-                              </div>
+                              <SocialLinks />
                     </div>
           </div>
           <section
