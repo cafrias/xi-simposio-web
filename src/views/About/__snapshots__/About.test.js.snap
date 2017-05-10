@@ -19,14 +19,26 @@ ShallowWrapper {
                 <img
                     alt="participantes del simposio"
                     className="about__pic"
-                    src="about-pic.jpg" />
+                    src="about-pic@900.jpg"
+                    srcSet="
+                                about-pic@1200.jpg 1200w,
+                                about-pic@1700.jpg 1700w,
+                                about-pic@2160.jpg 2160w,
+                                about-pic@2400.jpg 2400w
+                              " />
             </div>
             <div
                 className="about__pic-container about__pic-container--back">
                 <img
                     alt="participantes del simposio"
                     className="about__pic about__pic--back"
-                    src="about-pic.jpg" />
+                    src="about-pic-2@900.jpg"
+                    srcSet="
+                                about-pic-2@1200.jpg 1200w,
+                                about-pic-2@1700.jpg 1700w,
+                                about-pic-2@2160.jpg 2160w,
+                                about-pic-2@2400.jpg 2400w
+                              " />
             </div>
         </div>
         <article
@@ -165,14 +177,26 @@ ShallowWrapper {
                         <img
                               alt="participantes del simposio"
                               className="about__pic"
-                              src="about-pic.jpg" />
+                              src="about-pic@900.jpg"
+                              srcSet="
+                                        about-pic@1200.jpg 1200w,
+                                        about-pic@1700.jpg 1700w,
+                                        about-pic@2160.jpg 2160w,
+                                        about-pic@2400.jpg 2400w
+                                      " />
                   </div>
                   <div
                         className="about__pic-container about__pic-container--back">
                         <img
                               alt="participantes del simposio"
                               className="about__pic about__pic--back"
-                              src="about-pic.jpg" />
+                              src="about-pic-2@900.jpg"
+                              srcSet="
+                                        about-pic-2@1200.jpg 1200w,
+                                        about-pic-2@1700.jpg 1700w,
+                                        about-pic-2@2160.jpg 2160w,
+                                        about-pic-2@2400.jpg 2400w
+                                      " />
                   </div>
             </div>
             <article
@@ -345,14 +369,26 @@ ShallowWrapper {
                                         <img
                                                   alt="participantes del simposio"
                                                   className="about__pic"
-                                                  src="about-pic.jpg" />
+                                                  src="about-pic@900.jpg"
+                                                  srcSet="
+                                                        about-pic@1200.jpg 1200w,
+                                                        about-pic@1700.jpg 1700w,
+                                                        about-pic@2160.jpg 2160w,
+                                                        about-pic@2400.jpg 2400w
+                                                      " />
                               </div>
                               <div
                                         className="about__pic-container about__pic-container--back">
                                         <img
                                                   alt="participantes del simposio"
                                                   className="about__pic about__pic--back"
-                                                  src="about-pic.jpg" />
+                                                  src="about-pic-2@900.jpg"
+                                                  srcSet="
+                                                        about-pic-2@1200.jpg 1200w,
+                                                        about-pic-2@1700.jpg 1700w,
+                                                        about-pic-2@2160.jpg 2160w,
+                                                        about-pic-2@2400.jpg 2400w
+                                                      " />
                               </div>
                     </div>
                     <article
@@ -491,14 +527,26 @@ ShallowWrapper {
                                         <img
                                                   alt="participantes del simposio"
                                                   className="about__pic"
-                                                  src="about-pic.jpg" />
+                                                  src="about-pic@900.jpg"
+                                                  srcSet="
+                                                        about-pic@1200.jpg 1200w,
+                                                        about-pic@1700.jpg 1700w,
+                                                        about-pic@2160.jpg 2160w,
+                                                        about-pic@2400.jpg 2400w
+                                                      " />
                               </div>
                               <div
                                         className="about__pic-container about__pic-container--back">
                                         <img
                                                   alt="participantes del simposio"
                                                   className="about__pic about__pic--back"
-                                                  src="about-pic.jpg" />
+                                                  src="about-pic-2@900.jpg"
+                                                  srcSet="
+                                                        about-pic-2@1200.jpg 1200w,
+                                                        about-pic-2@1700.jpg 1700w,
+                                                        about-pic-2@2160.jpg 2160w,
+                                                        about-pic-2@2400.jpg 2400w
+                                                      " />
                               </div>
                     </div>
                     <article
