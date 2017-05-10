@@ -69,7 +69,7 @@ function Cost({name, cost}, i) {
 
 function Registration() {
   return (
-    <Section id="about" name="Inscripción"
+    <Section id="registration" name="Inscripción"
       className="background_white registration-container">
       <article className="deadlines">
         <h2>Presentación de trabajos</h2>

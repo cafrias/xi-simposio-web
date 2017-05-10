@@ -16,11 +16,11 @@ const MENU_ITEMS = [
   },
   {
     name: 'Inscripción',
-    link: '#admission'
+    link: '#registration'
   },
   {
     name: 'Ubicación',
-    link: '#place'
+    link: '#location'
   }
 ]
 
