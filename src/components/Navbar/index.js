@@ -18,7 +18,8 @@ import List from './List'
 // TYPES _______________________________________________________________________
 type NavBarProps = {
   menuOpen: boolean,
-  toggleMenu: () => any
+  toggleMenu: () => void,
+  closeAndNavigate: () => void
 }
 
 // NAVBAR COMPONENT ____________________________________________________________
@@ -56,7 +57,8 @@ class Navbar extends Component {
   render() {
     const {
       menuOpen,
-      toggleMenu
+      toggleMenu,
+      closeAndNavigate
     } = this.props
 
     const {
@@ -87,7 +89,7 @@ class Navbar extends Component {
           </div>
           {
             menuOpen
-            ? <List topNav={false} />
+            ? <List closeAndNavigate={closeAndNavigate} topNav={false} />
             : null
           }
         </header>

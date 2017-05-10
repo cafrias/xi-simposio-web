@@ -40,7 +40,7 @@ function TopList() {
   )
 }
 
-function List({topNav}) {
+function List({topNav, closeAndNavigate}) {
   if(topNav) return TopList()
 
   return (
@@ -71,7 +71,8 @@ function List({topNav}) {
             }
 
             return (
-              <li key={i} style={styles}>
+              <li key={i} style={styles}
+                onClick={() => closeAndNavigate(MENU_ITEMS[i].link)}>
                 <a href={MENU_ITEMS[i].link} className="top-nav__link">
                   {MENU_ITEMS[i].name}
                 </a>
