@@ -70,6 +70,9 @@ ShallowWrapper {
             <Sponsor
                 alt="Logo Banco de la Provincia de Tierra del Fuego"
                 logo="logo-03.jpg" />
+            <Sponsor
+                alt="Logo Consejo Profesional de Ciencias Económicas de Tierra del Fuego"
+                logo="logo-04.gif" />
         </div>
         <section
             className="collaboration">
@@ -156,6 +159,9 @@ ShallowWrapper {
                   <Sponsor
                         alt="Logo Banco de la Provincia de Tierra del Fuego"
                         logo="logo-03.jpg" />
+                  <Sponsor
+                        alt="Logo Consejo Profesional de Ciencias Económicas de Tierra del Fuego"
+                        logo="logo-04.gif" />
             </div>
             <section
                   className="collaboration">
@@ -276,6 +282,9 @@ ShallowWrapper {
                               <Sponsor
                                         alt="Logo Banco de la Provincia de Tierra del Fuego"
                                         logo="logo-03.jpg" />
+                              <Sponsor
+                                        alt="Logo Consejo Profesional de Ciencias Económicas de Tierra del Fuego"
+                                        logo="logo-04.gif" />
                     </div>
                     <section
                               className="collaboration">
@@ -362,6 +371,9 @@ ShallowWrapper {
                               <Sponsor
                                         alt="Logo Banco de la Provincia de Tierra del Fuego"
                                         logo="logo-03.jpg" />
+                              <Sponsor
+                                        alt="Logo Consejo Profesional de Ciencias Económicas de Tierra del Fuego"
+                                        logo="logo-04.gif" />
                     </div>
                     <section
                               className="collaboration">
