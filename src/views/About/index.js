@@ -4,7 +4,18 @@ import React from 'react'
 
 import './About.sass'
 
-import image from './assets/about-pic.jpg'
+// PICTURES ____________________________________________________________________
+import img01_900 from './assets/about-pic@900.jpg'
+import img01_1200 from './assets/about-pic@1200.jpg'
+import img01_1700 from './assets/about-pic@1700.jpg'
+import img01_2160 from './assets/about-pic@2160.jpg'
+import img01_2400 from './assets/about-pic@2400.jpg'
+
+import img02_900 from './assets/about-pic-2@900.jpg'
+import img02_1200 from './assets/about-pic-2@1200.jpg'
+import img02_1700 from './assets/about-pic-2@1700.jpg'
+import img02_2160 from './assets/about-pic-2@2160.jpg'
+import img02_2400 from './assets/about-pic-2@2400.jpg'
 
 // COMPONENTS __________________________________________________________________
 import Section from '../../components/Section'
@@ -19,10 +30,26 @@ function About() {
       <div className="intro-container">
         <div className="about__portrait">
           <div className="about__pic-container">
-            <img src={image} className="about__pic" alt="participantes del simposio"/>
+            <img
+              src={img01_900}
+              srcSet={`
+                ${img01_1200} 1200w,
+                ${img01_1700} 1700w,
+                ${img01_2160} 2160w,
+                ${img01_2400} 2400w
+              `}
+              className="about__pic" alt="participantes del simposio"/>
           </div>
           <div className="about__pic-container about__pic-container--back">
-            <img src={image} className="about__pic about__pic--back" alt="participantes del simposio"/>
+            <img
+              src={img02_900}
+              srcSet={`
+                ${img02_1200} 1200w,
+                ${img02_1700} 1700w,
+                ${img02_2160} 2160w,
+                ${img02_2400} 2400w
+              `}
+              className="about__pic about__pic--back" alt="participantes del simposio"/>
           </div>
         </div>
         <article className="introduction">
