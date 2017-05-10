@@ -16,7 +16,7 @@ ShallowWrapper {
         <div
             className="top-nav__on-top">
             <div
-                className="logo-container">
+                className="logo-container ">
                 <img
                     alt="logo"
                     className="logo"
@@ -60,7 +60,7 @@ ShallowWrapper {
             <div
                   className="top-nav__on-top">
                   <div
-                        className="logo-container">
+                        className="logo-container ">
                         <img
                               alt="logo"
                               className="logo"
@@ -140,7 +140,7 @@ ShallowWrapper {
                     <div
                               className="top-nav__on-top">
                               <div
-                                        className="logo-container">
+                                        className="logo-container ">
                                         <img
                                                   alt="logo"
                                                   className="logo"
@@ -184,7 +184,7 @@ ShallowWrapper {
                     <div
                               className="top-nav__on-top">
                               <div
-                                        className="logo-container">
+                                        className="logo-container ">
                                         <img
                                                   alt="logo"
                                                   className="logo"

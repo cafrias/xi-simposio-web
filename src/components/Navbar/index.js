@@ -73,7 +73,7 @@ class Navbar extends Component {
             ${menuOpen ? 'top-nav--open' : ''}`}
           >
           <div className="top-nav__on-top">
-            <div className="logo-container">
+            <div className={`logo-container ${shrink ? 'logo-container--shrunk' : ''}`}>
               <img src={logo} alt="logo" className="logo" />
             </div>
             <div className="hamburger" onClick={toggleMenu}>
