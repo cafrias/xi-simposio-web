@@ -70,7 +70,8 @@ ShallowWrapper {
             className="tile__social hotel__links">
             <li>
                 <a
-                    href="http://www.hotelushuaia.com.ar">
+                    href="http://www.hotelushuaia.com.ar"
+                    target="_blank">
                     www.hotelushuaia.com.ar
                 </a>
             </li>
@@ -154,7 +155,8 @@ ShallowWrapper {
                   className="tile__social hotel__links">
                   <li>
                         <a
-                              href="http://www.hotelushuaia.com.ar">
+                              href="http://www.hotelushuaia.com.ar"
+                              target="_blank">
                               www.hotelushuaia.com.ar
                         </a>
                   </li>
@@ -272,7 +274,8 @@ ShallowWrapper {
                               className="tile__social hotel__links">
                               <li>
                                         <a
-                                                  href="http://www.hotelushuaia.com.ar">
+                                                  href="http://www.hotelushuaia.com.ar"
+                                                  target="_blank">
                                                   www.hotelushuaia.com.ar
                                         </a>
                               </li>
@@ -356,7 +359,8 @@ ShallowWrapper {
                               className="tile__social hotel__links">
                               <li>
                                         <a
-                                                  href="http://www.hotelushuaia.com.ar">
+                                                  href="http://www.hotelushuaia.com.ar"
+                                                  target="_blank">
                                                   www.hotelushuaia.com.ar
                                         </a>
                               </li>
