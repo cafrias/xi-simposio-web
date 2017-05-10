@@ -4,6 +4,12 @@ import './Location.sass'
 
 import map from './maps-2.jpg'
 
+// MAP IMAGES __________________________________________________________________
+import map_1000 from './_assets/map.png'
+import map_800 from './_assets/map@800.png'
+import map_550 from './_assets/map@550.png'
+import map_400 from './_assets/map@400.png'
+
 // COMPONENTS __________________________________________________________________
 import Section from '../../components/Section'
 import SocialLinks from '../../components/SocialLinks'
@@ -14,15 +20,29 @@ function Location() {
       <article className="tile">
         <div className="tile__left">
           <h2 className="tile__title">DIRECCIÓN</h2>
-          <p className="text-container tile__text">Edificio tal de la Universidad de cual<br/>Calle tanto 12345, Ushuaia, Tierra del Fuego, Argentina.
+          <p className="text-container tile__text">
+            SUM de la Caja de Previsión Social de la Provincia de Tierra del Fuego,
+            <br/>
+            Alem 2410, Ushuaia, Tierra del Fuego, Argentina.
           </p>
-          <p className="tile__text"><a href="maps.google.com">Ver en Google Maps</a></p>
+          <p className="tile__text">
+            <a target="_blank" href="https://www.google.com.ar/maps/place/Av.+Leandro+N.+Alem+2410,+V9410ADX+Ushuaia,+Tierra+del+Fuego/@-54.8093112,-68.3365895,16.83z/data=!4m5!3m4!1s0xbc4c233f167580ad:0xaf5184363e0591db!8m2!3d-54.8086259!4d-68.3377634?hl=en">
+              Ver en Google Maps
+            </a>
+          </p>
           <div className="tile__social">
             <SocialLinks/>
           </div>
         </div>
         <div className="tile__right">
-          <img className="tile__map" src={map} alt="Mapa de la ubicacion"/>
+          <img className="tile__map" alt="Mapa de la ubicacion"
+            src={map_400}
+            srcSet={`
+              ${map_550} 550w,
+              ${map_800} 800w,
+              ${map_1000} 1000w
+            `}
+          />
         </div>
       </article>
       <article className="tile tile--hotel">

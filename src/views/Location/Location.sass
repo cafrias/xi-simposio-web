@@ -35,10 +35,7 @@
 
 // TILE RIGHT __________________________________________________________________
 .tile__right
-  width: 100%
-  display: flex
-  align-items: center
-  justify-content: flex-end
+  display: none
 
 .tile__map
   height: inherit
@@ -79,8 +76,11 @@
     order: 0
 
   .tile__right
+    display: flex
     width: 35%
     order: 1
+    align-items: center
+    justify-content: flex-end
 
   .tile__map
     transform: scale(1.1, 1.1)
