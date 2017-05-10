@@ -73,9 +73,12 @@ function About() {
             <p>
               Es por todo esto que se invita a estudiantes, docentes e investigadores vinculados a la Contabilidad y la Auditoría y al público en general, a participar de este importante evento.
             </p>
-            <p className="about__more-info">
-              Más información: <a href="https://www.google.com">Descargar PDF</a>
+            <p className="download-disclaimer">
+              Al término de la presente edición del Simposio, estarán a su disposición para <strong>descargar</strong> todos los trabajos presentados en el mismo.<br/>
             </p>
+            <footer className="about__more-info">
+              <small>Más información: <a href="https://www.google.com">Descargar PDF</a></small>
+            </footer>
           </div>
         </article>
       </div>
