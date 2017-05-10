@@ -13,29 +13,40 @@ ShallowWrapper {
     <div
         className="speakers__grid speakers__grid--mount">
         <Speaker
-            inst="(UNTDF-UNPSJB)"
-            name="Ricardo Barrera"
-            pic="http://lorempixel.com/200/200/people" />
-        <Speaker
+            id="01"
             inst="(UBA)"
-            name="Enrique Fowler Newton"
-            pic="http://lorempixel.com/200/200/people" />
+            name="Ricardo Pahlen Acuña"
+            pic="01.jpg" />
         <Speaker
-            inst="(UBA)"
-            name="Juan Permuy"
-            pic="http://lorempixel.com/200/200/people" />
-        <Speaker
+            id="02"
             inst="(UBA)"
             name="Ana María Campo"
-            pic="http://lorempixel.com/200/200/people" />
+            pic="02.jpg" />
         <Speaker
+            id="04"
+            inst="(UNTDF-UNPSJB)"
+            name="Ricardo Barrera"
+            pic="04.jpg" />
+        <Speaker
+            id="05"
             inst="(UBA)"
             name="Francisco Provenzani"
-            pic="http://lorempixel.com/200/200/people" />
+            pic="05.jpg" />
         <Speaker
+            id="06"
             inst="(UBA)"
-            name="Oscar Botino"
-            pic="http://lorempixel.com/200/200/people" />
+            name="Hugo Bottino"
+            pic="06.jpg" />
+        <Speaker
+            id="07"
+            inst="(UBA)"
+            name="Juan Permuy"
+            pic="07.jpg" />
+        <Speaker
+            id="08"
+            inst="(UBA)"
+            name="Mauricio Lambertucci"
+            pic="08.jpg" />
     </div>
 </Section>,
   "nodes": Array [
@@ -46,29 +57,40 @@ ShallowWrapper {
       <div
             className="speakers__grid speakers__grid--mount">
             <Speaker
-                  inst="(UNTDF-UNPSJB)"
-                  name="Ricardo Barrera"
-                  pic="http://lorempixel.com/200/200/people" />
-            <Speaker
+                  id="01"
                   inst="(UBA)"
-                  name="Enrique Fowler Newton"
-                  pic="http://lorempixel.com/200/200/people" />
+                  name="Ricardo Pahlen Acuña"
+                  pic="01.jpg" />
             <Speaker
-                  inst="(UBA)"
-                  name="Juan Permuy"
-                  pic="http://lorempixel.com/200/200/people" />
-            <Speaker
+                  id="02"
                   inst="(UBA)"
                   name="Ana María Campo"
-                  pic="http://lorempixel.com/200/200/people" />
+                  pic="02.jpg" />
             <Speaker
+                  id="04"
+                  inst="(UNTDF-UNPSJB)"
+                  name="Ricardo Barrera"
+                  pic="04.jpg" />
+            <Speaker
+                  id="05"
                   inst="(UBA)"
                   name="Francisco Provenzani"
-                  pic="http://lorempixel.com/200/200/people" />
+                  pic="05.jpg" />
             <Speaker
+                  id="06"
                   inst="(UBA)"
-                  name="Oscar Botino"
-                  pic="http://lorempixel.com/200/200/people" />
+                  name="Hugo Bottino"
+                  pic="06.jpg" />
+            <Speaker
+                  id="07"
+                  inst="(UBA)"
+                  name="Juan Permuy"
+                  pic="07.jpg" />
+            <Speaker
+                  id="08"
+                  inst="(UBA)"
+                  name="Mauricio Lambertucci"
+                  pic="08.jpg" />
       </div>
 </Section>,
   ],
@@ -113,29 +135,40 @@ ShallowWrapper {
           <div
                     className="speakers__grid speakers__grid--mount">
                     <Speaker
-                              inst="(UNTDF-UNPSJB)"
-                              name="Ricardo Barrera"
-                              pic="http://lorempixel.com/200/200/people" />
-                    <Speaker
+                              id="01"
                               inst="(UBA)"
-                              name="Enrique Fowler Newton"
-                              pic="http://lorempixel.com/200/200/people" />
+                              name="Ricardo Pahlen Acuña"
+                              pic="01.jpg" />
                     <Speaker
-                              inst="(UBA)"
-                              name="Juan Permuy"
-                              pic="http://lorempixel.com/200/200/people" />
-                    <Speaker
+                              id="02"
                               inst="(UBA)"
                               name="Ana María Campo"
-                              pic="http://lorempixel.com/200/200/people" />
+                              pic="02.jpg" />
                     <Speaker
+                              id="04"
+                              inst="(UNTDF-UNPSJB)"
+                              name="Ricardo Barrera"
+                              pic="04.jpg" />
+                    <Speaker
+                              id="05"
                               inst="(UBA)"
                               name="Francisco Provenzani"
-                              pic="http://lorempixel.com/200/200/people" />
+                              pic="05.jpg" />
                     <Speaker
+                              id="06"
                               inst="(UBA)"
-                              name="Oscar Botino"
-                              pic="http://lorempixel.com/200/200/people" />
+                              name="Hugo Bottino"
+                              pic="06.jpg" />
+                    <Speaker
+                              id="07"
+                              inst="(UBA)"
+                              name="Juan Permuy"
+                              pic="07.jpg" />
+                    <Speaker
+                              id="08"
+                              inst="(UBA)"
+                              name="Mauricio Lambertucci"
+                              pic="08.jpg" />
           </div>
 </Section>,
         "_debugID": 4,
@@ -146,29 +179,40 @@ ShallowWrapper {
           <div
                     className="speakers__grid speakers__grid--mount">
                     <Speaker
-                              inst="(UNTDF-UNPSJB)"
-                              name="Ricardo Barrera"
-                              pic="http://lorempixel.com/200/200/people" />
-                    <Speaker
+                              id="01"
                               inst="(UBA)"
-                              name="Enrique Fowler Newton"
-                              pic="http://lorempixel.com/200/200/people" />
+                              name="Ricardo Pahlen Acuña"
+                              pic="01.jpg" />
                     <Speaker
-                              inst="(UBA)"
-                              name="Juan Permuy"
-                              pic="http://lorempixel.com/200/200/people" />
-                    <Speaker
+                              id="02"
                               inst="(UBA)"
                               name="Ana María Campo"
-                              pic="http://lorempixel.com/200/200/people" />
+                              pic="02.jpg" />
                     <Speaker
+                              id="04"
+                              inst="(UNTDF-UNPSJB)"
+                              name="Ricardo Barrera"
+                              pic="04.jpg" />
+                    <Speaker
+                              id="05"
                               inst="(UBA)"
                               name="Francisco Provenzani"
-                              pic="http://lorempixel.com/200/200/people" />
+                              pic="05.jpg" />
                     <Speaker
+                              id="06"
                               inst="(UBA)"
-                              name="Oscar Botino"
-                              pic="http://lorempixel.com/200/200/people" />
+                              name="Hugo Bottino"
+                              pic="06.jpg" />
+                    <Speaker
+                              id="07"
+                              inst="(UBA)"
+                              name="Juan Permuy"
+                              pic="07.jpg" />
+                    <Speaker
+                              id="08"
+                              inst="(UBA)"
+                              name="Mauricio Lambertucci"
+                              pic="08.jpg" />
           </div>
 </Section>,
       },
