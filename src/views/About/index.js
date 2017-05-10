@@ -77,7 +77,8 @@ function About() {
               Al término de la presente edición del Simposio, estarán a su disposición para <strong>descargar</strong> todos los trabajos presentados en el mismo.<br/>
             </p>
             <footer className="about__more-info">
-              <small>Más información: <a href="https://www.google.com">Descargar PDF</a></small>
+              <small>Más información: {' '}
+              <a target="_blank" href="https://drive.google.com/open?id=0B7VKVU2ob_G2akFCWWZmZkRyaDA">Descargar PDF</a></small>
             </footer>
           </div>
         </article>

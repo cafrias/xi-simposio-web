@@ -36,7 +36,7 @@ function Location() {
         </ul>
         <ul className="tile__social hotel__links">
           <li>
-            <a href="http://www.hotelushuaia.com.ar">www.hotelushuaia.com.ar</a>
+            <a target="_blank" href="http://www.hotelushuaia.com.ar">www.hotelushuaia.com.ar</a>
           </li>
           <li>
             <a href="tel:+54 2901 430671">+54 2901 430671</a>
