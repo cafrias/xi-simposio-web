@@ -107,7 +107,6 @@
 
 // SPONSORS ____________________________________________________________________
 .sponsors
-  height: 300px
   width: 100%
   background-color: $primary
   display: flex
@@ -121,6 +120,54 @@
   transform: skew(15deg)
   padding: 1rem 1.618rem
   +shadow-1
+  +anti-aliased
+
+.sponsors__grid
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  justify-content: space-around
+  margin-top: 2.618rem
+
+.sponsors__container
+  width: 300px
+  max-width: 100%
+  background-color: #fff
+  padding: 1rem
+  border-radius: 5%
+  margin-top: 2.618rem
+  display: flex
+  justify-content: center
+  align-items: center
+  +shadow-2
+
+.sponsor__img
+  max-width: 100%
+
+// COLLABORATION _______________________________________________________________
+.collaboration
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  padding: 0 .75rem
+  align-items: baseline
+  margin-top: 4rem
+  width: 100%
+
+.collaboration__title
+  color: #fff
+  font-size: 1.618rem
+  text-transform: none
+  +anti-aliased
+
+.collaboration__list
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: baseline
+
+.collaboration__item
+  color: #fff
   +anti-aliased
 
 // TABLET PORTRAIT _____________________________________________________________

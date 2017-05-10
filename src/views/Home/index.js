@@ -14,6 +14,10 @@ import untdf_x2 from './assets/untdf@2x.png'
 
 // COMPONENTS __________________________________________________________________
 import SocialLinks from '../../components/SocialLinks'
+import Sponsor from './Sponsor'
+
+// DATA ________________________________________________________________________
+import sponsors from './sponsors_data'
 
 function Home() {
   return (
@@ -42,6 +46,20 @@ function Home() {
         <header className="sponsors__header">
           <h2 className="section__title">Auspiciantes</h2>
         </header>
+        <div className="sponsors__grid">
+          {
+            sponsors.map(({logo, alt}, i) => (
+              <Sponsor key={i} logo={logo} alt={alt}/>
+            ))
+          }
+        </div>
+        <section className="collaboration">
+          <h3 className="collaboration__title">Se agradece la colaboración de:</h3>
+          <ul className="collaboration__list">
+            <ul className="collaboration__item">Rumbo Sur</ul>
+            <ul className="collaboration__item">Laguna Negra Chocolatería</ul>
+          </ul>
+        </section>
       </section>
     </section>
   )

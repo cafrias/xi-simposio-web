@@ -59,6 +59,36 @@ ShallowWrapper {
                 Auspiciantes
             </h2>
         </header>
+        <div
+            className="sponsors__grid">
+            <Sponsor
+                alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                logo="logo-01.svg" />
+            <Sponsor
+                alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                logo="logo-02.png" />
+            <Sponsor
+                alt="Logo Banco de la Provincia de Tierra del Fuego"
+                logo="logo-03.jpg" />
+        </div>
+        <section
+            className="collaboration">
+            <h3
+                className="collaboration__title">
+                Se agradece la colaboración de:
+            </h3>
+            <ul
+                className="collaboration__list">
+                <ul
+                    className="collaboration__item">
+                    Rumbo Sur
+                </ul>
+                <ul
+                    className="collaboration__item">
+                    Laguna Negra Chocolatería
+                </ul>
+            </ul>
+        </section>
     </section>
 </section>,
   "nodes": Array [
@@ -115,6 +145,36 @@ ShallowWrapper {
                         Auspiciantes
                   </h2>
             </header>
+            <div
+                  className="sponsors__grid">
+                  <Sponsor
+                        alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                        logo="logo-01.svg" />
+                  <Sponsor
+                        alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                        logo="logo-02.png" />
+                  <Sponsor
+                        alt="Logo Banco de la Provincia de Tierra del Fuego"
+                        logo="logo-03.jpg" />
+            </div>
+            <section
+                  className="collaboration">
+                  <h3
+                        className="collaboration__title">
+                        Se agradece la colaboración de:
+                  </h3>
+                  <ul
+                        className="collaboration__list">
+                        <ul
+                              className="collaboration__item">
+                              Rumbo Sur
+                        </ul>
+                        <ul
+                              className="collaboration__item">
+                              Laguna Negra Chocolatería
+                        </ul>
+                  </ul>
+            </section>
       </section>
 </section>,
   ],
@@ -205,6 +265,36 @@ ShallowWrapper {
                                         Auspiciantes
                               </h2>
                     </header>
+                    <div
+                              className="sponsors__grid">
+                              <Sponsor
+                                        alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                                        logo="logo-01.svg" />
+                              <Sponsor
+                                        alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                                        logo="logo-02.png" />
+                              <Sponsor
+                                        alt="Logo Banco de la Provincia de Tierra del Fuego"
+                                        logo="logo-03.jpg" />
+                    </div>
+                    <section
+                              className="collaboration">
+                              <h3
+                                        className="collaboration__title">
+                                        Se agradece la colaboración de:
+                              </h3>
+                              <ul
+                                        className="collaboration__list">
+                                        <ul
+                                                  className="collaboration__item">
+                                                  Rumbo Sur
+                                        </ul>
+                                        <ul
+                                                  className="collaboration__item">
+                                                  Laguna Negra Chocolatería
+                                        </ul>
+                              </ul>
+                    </section>
           </section>
 </section>,
         "_debugID": 4,
@@ -261,6 +351,36 @@ ShallowWrapper {
                                         Auspiciantes
                               </h2>
                     </header>
+                    <div
+                              className="sponsors__grid">
+                              <Sponsor
+                                        alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                                        logo="logo-01.svg" />
+                              <Sponsor
+                                        alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                                        logo="logo-02.png" />
+                              <Sponsor
+                                        alt="Logo Banco de la Provincia de Tierra del Fuego"
+                                        logo="logo-03.jpg" />
+                    </div>
+                    <section
+                              className="collaboration">
+                              <h3
+                                        className="collaboration__title">
+                                        Se agradece la colaboración de:
+                              </h3>
+                              <ul
+                                        className="collaboration__list">
+                                        <ul
+                                                  className="collaboration__item">
+                                                  Rumbo Sur
+                                        </ul>
+                                        <ul
+                                                  className="collaboration__item">
+                                                  Laguna Negra Chocolatería
+                                        </ul>
+                              </ul>
+                    </section>
           </section>
 </section>,
       },
