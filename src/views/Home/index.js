@@ -49,20 +49,22 @@ function Home() {
         <header className="sponsors__header">
           <h2 className="section__title">Auspiciantes</h2>
         </header>
-        <div className="sponsors__grid">
+        <ul className="sponsors__grid">
           {
             sponsors.map(({logo, alt}, i) => (
               <Sponsor key={i} logo={logo} alt={alt}/>
             ))
           }
-        </div>
+        </ul>
         <section className="collaboration">
           <h3 className="collaboration__title">Se agradece la colaboración de:</h3>
-          {
-            collaborators.map(({logo, alt}, i) => (
-              <Sponsor key={i} logo={logo} alt={alt} small={true}/>
-            ))
-          }
+          <ul className="sponsors__grid collaborators__grid">
+            {
+              collaborators.map(({logo, alt}, i) => (
+                <Sponsor key={i} logo={logo} alt={alt} small={true}/>
+              ))
+            }
+          </ul>
         </section>
       </section>
     </section>

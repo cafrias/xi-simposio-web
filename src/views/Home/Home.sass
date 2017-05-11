@@ -128,41 +128,24 @@
   width: 100%
   justify-content: space-around
   margin-top: 2.618rem
-
-.sponsors__container
-  width: 300px
-  max-width: 100%
-  background-color: #fff
-  padding: 1rem
-  border-radius: 15px
-  margin-top: 2.618rem
-  display: flex
-  justify-content: center
-  align-items: center
-  +shadow-2
-
-.sponsors__container--small
-  border-radius: 10px
-  width: 250px
-  align-self: stretch
-
-.sponsor__img
-  max-width: 100%
+  padding: 0
 
 // COLLABORATION _______________________________________________________________
 .collaboration
   display: flex
-  flex-wrap: wrap
-  justify-content: space-around
-  padding: 0 .75rem
+  flex-direction: column
   align-items: center
+  padding: 0 .75rem
   margin-top: 4rem
   width: 100%
+
+.collaborators__grid
+  margin-top: 0
 
 .collaboration__title
   color: #fff
   margin: 0
-  font-size: 1.618rem
+  font-size: 1.25rem
   text-transform: none
   +anti-aliased
 
@@ -243,6 +226,9 @@
     background-image: url('./assets/back-desktop.jpg')
     background-position: top center
     +shadow-2
+
+  .collaboration__title
+    font-size: 1.618rem
 
 +for-big-desktop-up
   .organized

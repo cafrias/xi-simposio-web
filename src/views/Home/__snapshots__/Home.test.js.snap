@@ -59,7 +59,7 @@ ShallowWrapper {
                 Auspiciantes
             </h2>
         </header>
-        <div
+        <ul
             className="sponsors__grid">
             <Sponsor
                 alt="Logo Legislatura de la Provincia de Tierra del Fuego"
@@ -73,21 +73,24 @@ ShallowWrapper {
             <Sponsor
                 alt="Logo Consejo Profesional de Ciencias Económicas de Tierra del Fuego"
                 logo="logo-04.gif" />
-        </div>
+        </ul>
         <section
             className="collaboration">
             <h3
                 className="collaboration__title">
                 Se agradece la colaboración de:
             </h3>
-            <Sponsor
-                alt="Logo Legislatura de la Provincia de Tierra del Fuego"
-                logo="logo-05.jpg"
-                small={true} />
-            <Sponsor
-                alt="Logo Gobierno de la Provincia de Tierra del Fuego"
-                logo="logo-06.png"
-                small={true} />
+            <ul
+                className="sponsors__grid collaborators__grid">
+                <Sponsor
+                    alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                    logo="logo-05.jpg"
+                    small={true} />
+                <Sponsor
+                    alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                    logo="logo-06.png"
+                    small={true} />
+            </ul>
         </section>
     </section>
 </section>,
@@ -145,7 +148,7 @@ ShallowWrapper {
                         Auspiciantes
                   </h2>
             </header>
-            <div
+            <ul
                   className="sponsors__grid">
                   <Sponsor
                         alt="Logo Legislatura de la Provincia de Tierra del Fuego"
@@ -159,21 +162,24 @@ ShallowWrapper {
                   <Sponsor
                         alt="Logo Consejo Profesional de Ciencias Económicas de Tierra del Fuego"
                         logo="logo-04.gif" />
-            </div>
+            </ul>
             <section
                   className="collaboration">
                   <h3
                         className="collaboration__title">
                         Se agradece la colaboración de:
                   </h3>
-                  <Sponsor
-                        alt="Logo Legislatura de la Provincia de Tierra del Fuego"
-                        logo="logo-05.jpg"
-                        small={true} />
-                  <Sponsor
-                        alt="Logo Gobierno de la Provincia de Tierra del Fuego"
-                        logo="logo-06.png"
-                        small={true} />
+                  <ul
+                        className="sponsors__grid collaborators__grid">
+                        <Sponsor
+                              alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                              logo="logo-05.jpg"
+                              small={true} />
+                        <Sponsor
+                              alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                              logo="logo-06.png"
+                              small={true} />
+                  </ul>
             </section>
       </section>
 </section>,
@@ -265,7 +271,7 @@ ShallowWrapper {
                                         Auspiciantes
                               </h2>
                     </header>
-                    <div
+                    <ul
                               className="sponsors__grid">
                               <Sponsor
                                         alt="Logo Legislatura de la Provincia de Tierra del Fuego"
@@ -279,21 +285,24 @@ ShallowWrapper {
                               <Sponsor
                                         alt="Logo Consejo Profesional de Ciencias Económicas de Tierra del Fuego"
                                         logo="logo-04.gif" />
-                    </div>
+                    </ul>
                     <section
                               className="collaboration">
                               <h3
                                         className="collaboration__title">
                                         Se agradece la colaboración de:
                               </h3>
-                              <Sponsor
-                                        alt="Logo Legislatura de la Provincia de Tierra del Fuego"
-                                        logo="logo-05.jpg"
-                                        small={true} />
-                              <Sponsor
-                                        alt="Logo Gobierno de la Provincia de Tierra del Fuego"
-                                        logo="logo-06.png"
-                                        small={true} />
+                              <ul
+                                        className="sponsors__grid collaborators__grid">
+                                        <Sponsor
+                                                  alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                                                  logo="logo-05.jpg"
+                                                  small={true} />
+                                        <Sponsor
+                                                  alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                                                  logo="logo-06.png"
+                                                  small={true} />
+                              </ul>
                     </section>
           </section>
 </section>,
@@ -351,7 +360,7 @@ ShallowWrapper {
                                         Auspiciantes
                               </h2>
                     </header>
-                    <div
+                    <ul
                               className="sponsors__grid">
                               <Sponsor
                                         alt="Logo Legislatura de la Provincia de Tierra del Fuego"
@@ -365,21 +374,24 @@ ShallowWrapper {
                               <Sponsor
                                         alt="Logo Consejo Profesional de Ciencias Económicas de Tierra del Fuego"
                                         logo="logo-04.gif" />
-                    </div>
+                    </ul>
                     <section
                               className="collaboration">
                               <h3
                                         className="collaboration__title">
                                         Se agradece la colaboración de:
                               </h3>
-                              <Sponsor
-                                        alt="Logo Legislatura de la Provincia de Tierra del Fuego"
-                                        logo="logo-05.jpg"
-                                        small={true} />
-                              <Sponsor
-                                        alt="Logo Gobierno de la Provincia de Tierra del Fuego"
-                                        logo="logo-06.png"
-                                        small={true} />
+                              <ul
+                                        className="sponsors__grid collaborators__grid">
+                                        <Sponsor
+                                                  alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                                                  logo="logo-05.jpg"
+                                                  small={true} />
+                                        <Sponsor
+                                                  alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                                                  logo="logo-06.png"
+                                                  small={true} />
+                              </ul>
                     </section>
           </section>
 </section>,
