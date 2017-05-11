@@ -27,13 +27,13 @@ import speakers from './data'
 function Speakers() {
   return (
     <Section id="speakers" name="Disertantes" className="background_orange speakers">
-      <div className={`speakers__grid speakers__grid--mount`}>
+      <ul className="speakers__grid">
         {
           speakers.map((speaker, i) => (
             <Speaker key={i} {...speaker}/>
           ))
         }
-      </div>
+      </ul>
     </Section>
   )
 }

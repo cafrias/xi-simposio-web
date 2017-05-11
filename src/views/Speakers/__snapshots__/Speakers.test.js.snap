@@ -10,8 +10,8 @@ ShallowWrapper {
     className="background_orange speakers"
     id="speakers"
     name="Disertantes">
-    <div
-        className="speakers__grid speakers__grid--mount">
+    <ul
+        className="speakers__grid">
         <Speaker
             id="01"
             inst="(UBA)"
@@ -47,15 +47,15 @@ ShallowWrapper {
             inst="(UBA)"
             name="Mauricio Lambertucci"
             pic="08.jpg" />
-    </div>
+    </ul>
 </Section>,
   "nodes": Array [
     <Section
       className="background_orange speakers"
       id="speakers"
       name="Disertantes">
-      <div
-            className="speakers__grid speakers__grid--mount">
+      <ul
+            className="speakers__grid">
             <Speaker
                   id="01"
                   inst="(UBA)"
@@ -91,7 +91,7 @@ ShallowWrapper {
                   inst="(UBA)"
                   name="Mauricio Lambertucci"
                   pic="08.jpg" />
-      </div>
+      </ul>
 </Section>,
   ],
   "options": Object {},
@@ -132,8 +132,8 @@ ShallowWrapper {
           className="background_orange speakers"
           id="speakers"
           name="Disertantes">
-          <div
-                    className="speakers__grid speakers__grid--mount">
+          <ul
+                    className="speakers__grid">
                     <Speaker
                               id="01"
                               inst="(UBA)"
@@ -169,15 +169,15 @@ ShallowWrapper {
                               inst="(UBA)"
                               name="Mauricio Lambertucci"
                               pic="08.jpg" />
-          </div>
+          </ul>
 </Section>,
         "_debugID": 4,
         "_renderedOutput": <Section
           className="background_orange speakers"
           id="speakers"
           name="Disertantes">
-          <div
-                    className="speakers__grid speakers__grid--mount">
+          <ul
+                    className="speakers__grid">
                     <Speaker
                               id="01"
                               inst="(UBA)"
@@ -213,7 +213,7 @@ ShallowWrapper {
                               inst="(UBA)"
                               name="Mauricio Lambertucci"
                               pic="08.jpg" />
-          </div>
+          </ul>
 </Section>,
       },
       "_renderedNodeType": 1,

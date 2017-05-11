@@ -83,11 +83,11 @@ ShallowWrapper {
             <ul
                 className="sponsors__grid collaborators__grid">
                 <Sponsor
-                    alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                    alt="Logo Laguna Negra Chocolatería"
                     logo="logo-05.jpg"
                     small={true} />
                 <Sponsor
-                    alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                    alt="Logo Rumbo Sur SRL"
                     logo="logo-06.png"
                     small={true} />
             </ul>
@@ -172,11 +172,11 @@ ShallowWrapper {
                   <ul
                         className="sponsors__grid collaborators__grid">
                         <Sponsor
-                              alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                              alt="Logo Laguna Negra Chocolatería"
                               logo="logo-05.jpg"
                               small={true} />
                         <Sponsor
-                              alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                              alt="Logo Rumbo Sur SRL"
                               logo="logo-06.png"
                               small={true} />
                   </ul>
@@ -295,11 +295,11 @@ ShallowWrapper {
                               <ul
                                         className="sponsors__grid collaborators__grid">
                                         <Sponsor
-                                                  alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                                                  alt="Logo Laguna Negra Chocolatería"
                                                   logo="logo-05.jpg"
                                                   small={true} />
                                         <Sponsor
-                                                  alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                                                  alt="Logo Rumbo Sur SRL"
                                                   logo="logo-06.png"
                                                   small={true} />
                               </ul>
@@ -384,11 +384,11 @@ ShallowWrapper {
                               <ul
                                         className="sponsors__grid collaborators__grid">
                                         <Sponsor
-                                                  alt="Logo Legislatura de la Provincia de Tierra del Fuego"
+                                                  alt="Logo Laguna Negra Chocolatería"
                                                   logo="logo-05.jpg"
                                                   small={true} />
                                         <Sponsor
-                                                  alt="Logo Gobierno de la Provincia de Tierra del Fuego"
+                                                  alt="Logo Rumbo Sur SRL"
                                                   logo="logo-06.png"
                                                   small={true} />
                               </ul>

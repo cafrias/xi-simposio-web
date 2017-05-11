@@ -33,11 +33,11 @@ export const collaborators = [
   {
     id: '05',
     logo: logo05,
-    alt: 'Logo Legislatura de la Provincia de Tierra del Fuego'
+    alt: 'Logo Laguna Negra Chocolatería'
   },
   {
     id: '06',
     logo: logo06,
-    alt: 'Logo Gobierno de la Provincia de Tierra del Fuego'
+    alt: 'Logo Rumbo Sur SRL'
   },
 ]
