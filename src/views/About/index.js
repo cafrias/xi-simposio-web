@@ -80,7 +80,7 @@ function About() {
             </p>
             <footer className="about__more-info">
               <small>Más información: {' '}
-              <a target="_blank" href="https://drive.google.com/open?id=0B7VKVU2ob_G2akFCWWZmZkRyaDA">Descargar PDF</a></small>
+              <a target="_blank" href="https://drive.google.com/file/d/0B4-MAjalS7DYQjRNem83TTZIVm8/view">Aquí</a></small>
             </footer>
           </div>
         </article>
