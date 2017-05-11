@@ -74,7 +74,9 @@ function About() {
               Es por todo esto que se invita a estudiantes, docentes e investigadores vinculados a la Contabilidad y la Auditoría y al público en general, a participar de este importante evento.
             </p>
             <p className="download-disclaimer">
-              Al término de la presente edición del Simposio, estarán a su disposición para <strong>descargar</strong> todos los trabajos presentados en el mismo.<br/>
+              La publicación con todos los trabajos presentados en la presente edición del Simposio,
+              titulada <em>Memorias del XI° Simposio de Contabilidad y Auditoría del Extremo Sur</em>, {' '}
+              estará disponible para descargar a partir del <strong>24/05/2017</strong>.
             </p>
             <footer className="about__more-info">
               <small>Más información: {' '}
