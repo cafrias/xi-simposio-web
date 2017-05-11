@@ -17,7 +17,10 @@ import SocialLinks from '../../components/SocialLinks'
 import Sponsor from './Sponsor'
 
 // DATA ________________________________________________________________________
-import sponsors from './sponsors_data'
+import {
+  sponsors,
+  collaborators
+} from './sponsors_data'
 
 function Home() {
   return (
@@ -55,10 +58,11 @@ function Home() {
         </div>
         <section className="collaboration">
           <h3 className="collaboration__title">Se agradece la colaboración de:</h3>
-          <ul className="collaboration__list">
-            <ul className="collaboration__item">Rumbo Sur</ul>
-            <ul className="collaboration__item">Laguna Negra Chocolatería</ul>
-          </ul>
+          {
+            collaborators.map(({logo, alt}, i) => (
+              <Sponsor key={i} logo={logo} alt={alt} small={true}/>
+            ))
+          }
         </section>
       </section>
     </section>
