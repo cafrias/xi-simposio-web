@@ -76,7 +76,7 @@ function About() {
             <p className="download-disclaimer">
               La publicación con todos los trabajos presentados en la presente edición del Simposio,
               titulada <em>Memorias del XI° Simposio de Contabilidad y Auditoría del Extremo Sur</em>, {' '}
-              estará disponible para descargar a partir del <strong>24/05/2017</strong>.
+              está disponible para descargar <a target="_blank" href="https://drive.google.com/open?id=0B7VKVU2ob_G2bUZCZ3V3TXdiTkk">Aquí</a>.
             </p>
             <footer className="about__more-info">
               <small>Más información: {' '}
