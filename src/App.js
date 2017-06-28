@@ -5,7 +5,7 @@ import './App.sass'
 
 // COMPONENTS __________________________________________________________________
 import Navbar from './components/Navbar'
-import ToTop from './components/ToTop'
+import Notification from './components/Notification'
 
 // VIEWS _______________________________________________________________________
 import Home from './views/Home'
@@ -75,7 +75,7 @@ class App extends Component {
           <Registration/>
           <Location/>
         </main>
-        <ToTop/>
+        <Notification/>
         <footer className="main-footer">
           <small>contact@friasdesign.com – Frias Design®</small>
         </footer>

@@ -1,0 +1,60 @@
+@import '../../_sass/_constants.sass'
+
+.notify
+  position: fixed
+  bottom: 0.775rem
+  right: 0.775rem
+  height: 60px
+  width: 60px
+  z-index: 9
+  background-color: transparent
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.notify__icon
+  background-color: $primary
+  padding: 0.775rem
+  align-self: stretch
+  height: 60px
+  width: 60px
+  border-radius: 50%
+  opacity: 0.7
+
+.notify__icon:hover
+  cursor: pointer
+  opacity: 1
+  transition: opacity 0.3s ease-in
+  +shadow-2
+
+.notify__icon__svg
+  width: 100%
+  transform: rotate(-90deg)
+  transition: transform 0.2s ease-in
+
+.notify__text
+  padding: 1rem
+  margin: 0
+  display: none
+  width: 80%
+
+// OPEN ________
+.notify--open
+  width: auto
+  border-radius: 10px
+  background-color: #fff
+  max-width: 100%
+  transition: 0.2s ease-in
+  +shadow-2
+
+.notify--open .notify__icon__svg
+  transform: rotate(90deg)
+  transition: transform 0.2s ease-in
+
+.notify--open>.notify__icon
+  border-radius: 0
+  opacity: 1
+  transition: opacity 0.3s
+
+.notify--open>.notify__text
+  display: block
